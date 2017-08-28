@@ -1,0 +1,228 @@
+
+/*--banner--*/
+
+.bannerCon{
+	background:url(../images/broken/bannerBack.png) no-repeat top center;
+	text-align: center;
+}
+
+.bannerImg{
+	margin:5% auto;
+	max-width: 680px;
+}
+
+.wordCon{
+	background-color:#18315e;
+	text-align: center;
+	position: relative;
+	padding:1rem 0;
+}
+
+.ShoperCon{
+	text-align: center;
+}
+
+.ruguoImg{
+	margin:1% auto;	
+	max-width: 500px;
+}
+
+.tianmaoImg{
+	margin-top:3% auto;
+	max-width: 600px;
+}
+
+.TianmaoCon{
+	text-align: center;
+	margin:1% auto;
+}
+
+.TianmaoItemCon{
+	margin:auto;
+	margin-top:1rem;
+	min-width: 550px;
+}	
+
+.TianmaoItem{
+	border:1px solid #feeb68;
+	font-size: 1.8rem;
+	display: inline-block;
+	line-height: 1.8rem;
+	color:#feeb68;
+	margin:auto;
+	padding:0.5rem;
+	margin-right: 0.5rem;
+}
+
+.anniu1Img{
+	margin:1rem auto;
+	max-width: 400px;
+}
+
+.quesIconImg{
+	z-index: 0;	
+	max-width: 150px;
+	position: absolute;
+	top:-26rem;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	opacity: .8;
+	filter:alpha(opacity=80);
+}
+
+.kulianImg{
+	z-index: 0;	
+	max-width: 150px;
+	position: absolute;
+	top:-30rem;
+	left:0;
+	right: -35rem;
+	bottom: 0;
+	margin:auto;
+}
+
+.liutianImg{
+	margin:0.5rem auto;
+	max-width: 450px;
+	display: block;
+}
+
+.youshiImg{
+
+	margin:1.2rem auto;
+	max-width: 500px;
+	display: block;
+}
+
+.anniu2Img{
+	margin:1em auto;
+	max-width: 500px;
+	display: block;
+}
+
+/*----------间隔带------------------------*/
+.brokenGapCon{
+	background:url(../images/broken/brokenGap1.png) no-repeat 0 0 ;
+	height: 232px;
+}
+
+.brokenGapTextCon{	
+	margin:auto;
+	padding-top:3rem;
+	text-align: center;
+	font-size: 3rem;
+	line-height: 3rem;	
+}
+
+.brokenGapTextF
+{
+	color:#feeb68;
+	font-weight: 900;
+}
+
+.brokenGapTextF:before{
+	content:'「';
+	font-size: 2.4rem;
+	line-height: 2rem;
+	vertical-align: top;
+}
+
+.brokenGapTextS{
+	color:#fff;
+	font-weight: 900;	
+	font-size: 2.4rem;
+}
+
+.brokenGapTextS:after{
+	content:'」';
+	font-size: 2.4rem;
+	color:#feeb68;
+	line-height: 2rem;
+	vertical-align: bottom;
+}
+
+.brokenGapImg{
+	margin:1rem auto;
+	display: block;
+	text-align: center;
+}
+
+
+.taskDivCon{
+	background-image:url(../images/broken/taskbackImg.png);
+	background-repeat: repeat;
+	width:100%;
+	padding: 2%;
+}
+
+.taskUl{
+	list-style: none;
+	position: relative;
+	margin:auto;
+	width:1000px;	
+}
+
+.taskUl:before{
+ content: '';
+ position:absolute;
+ top:0;
+ left:32px;
+ height: 100%;
+ width: 3px;
+ background-color:#fff;
+}
+
+
+.taskLi{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.taskItemTop{
+	border:2px solid #feeb68;
+	padding:1rem;	
+	display: inline-block;	
+	background: #0c182d;
+	font-size: 1.6rem;	
+	line-height: 2rem;
+	color: #feeb68;
+	font-weight: bold;
+	letter-spacing: 0.4rem;
+	vertical-align: top;
+	writing-mode: tb-rl;
+}
+
+.taskItemContentCon{
+	margin-bottom: 20px;
+	display: inline-block;	
+	margin-left:2%;
+	width: 800px;
+}
+
+.taskItemContentT{
+	color:#feeb68;
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+	font-weight: bold;
+	padding:1%;
+	margin:0.8rem 0;
+
+}
+
+.taskItemImgCon{
+	display: block;
+
+}
+
+.taskMoreT{
+	margin-top:4%;
+}
+
+
+.taskItemimg{
+	max-width: 680px;
+	display: block;
+	margin-top:0.8rem;
+}
