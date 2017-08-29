@@ -1,0 +1,92 @@
+.bannerCon{
+	height: 505px;
+	background:url(../images/sell/banner.png) top center no-repeat;
+}
+
+.banner{
+	margin:atuo;
+}
+
+.bannerConInner{
+}
+
+.bannerCon1{
+	background:url(../images/sell/banner1.png) 0 0 no-repeat;
+	margin:auto;
+	height: 438px;
+}
+
+.bannerC1Iner{
+	padding:1% 0;
+}
+
+.centerTypeBanner{
+	text-align: center;
+	margin:auto;
+}
+
+.bannerC1Title{
+	padding-top:3%;
+}
+
+.bannerC1MapImg{
+	padding-top:3%;
+}
+
+.imgCenterType{
+	text-align: center;
+}
+
+.bannerCon2{
+	background:url(../images/sell/banner2.png) 0 0 no-repeat;
+	height: 456px;
+}
+
+.bannerC2Title{
+	padding-top:5%;
+}
+
+.bannerC2MapImg{
+	padding-top:1%;
+}
+
+.bannerCon3{
+	background:url(../images/sell/banner3.png) 0 0 no-repeat;
+	height: 564px;
+}
+
+.bannerC3Title{
+	padding-top:5%;
+}
+
+.bannerC3p{
+	padding-top:3%;
+}
+
+.bannerCon4{
+	background:url(../images/sell/banner4.png) 0 0 no-repeat;
+	height: 421px;
+
+}
+
+.bannerC4map{
+	max-width: 800px;
+	padding-top:3%;
+}
+
+.bannerCon5{
+	background-color:#0f0f37;	
+}
+
+.baner5Inner{
+	margin:auto;
+}
+
+.reportD{
+	text-align: right;
+	margin-right: 8%;
+}
+
+.superCourseTitle{
+	padding-top:4%;
+}

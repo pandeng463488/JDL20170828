@@ -677,3 +677,211 @@ a.TopABtn:hover{
 .jb4{
 	background-color:#9bd6da;
 }
+
+/*----------公开课--------------*/
+
+.publicCourseOuterCon{
+	background-color:#f3f6fb;
+	width:100%;
+	padding:3% 0;
+}
+
+.publicTextCon{
+	text-align: center;
+	margin-left:10%;
+}
+
+.publicCourseCon{
+	display: flex;
+	justify-content: center;
+	margin:auto;
+}
+
+.publicTitleImgCon{
+	position: relative;
+	width:100%;
+	text-align: center;
+}
+
+.publicTitleImg{
+	width:100%;
+	vertical-align: middle;
+}
+
+.publicTitleImgText{
+	position: absolute;
+	top:40px;
+	left:30px;
+	right:0;
+	bottom: 0;
+	margin:auto;
+	color:#fff;
+	font-size:35px;
+	font-weight: bold;
+	line-height: 37px;
+	width:100%;
+	height: 100%;
+	letter-spacing: 0.2rem;
+}
+
+.publicImgCon{
+
+}
+
+.publicImg{
+	max-width: 370px;
+	width:100%;
+}
+.publicTitle{
+	color:#f35e28;
+	font-weight: bold;
+	font-size:46px;
+	line-height: 50px;
+}
+
+.publicContextCon{
+	margin-top:1rem;
+	text-align:left;
+}
+
+.publicContextBeforeImg{
+	max-width: 22px;
+}
+
+.publicContextF{
+	border-bottom:1px dashed #ccc;
+	padding-bottom: 0.4rem;
+	font-size:25px;
+	line-height: 27px;
+	color:#f35e28;
+	font-weight: bold;
+}
+
+.publicContextS{
+	padding-top:0.5rem;
+	font-weight: bold;
+	font-size:20px;
+	line-height: 22px;
+	color:#494948;
+}
+
+.publicBtnCon{
+	margin-top:1rem;
+	text-align: right;
+}
+
+/*-------------报名--------------*/
+
+.reportOuterCon{
+	background:url(../images/our/reportBack.png) 0 0 no-repeat;
+}
+
+.reportCon{
+	margin:auto;
+	padding:3% 0;
+	text-align: center;
+	width: 1000px;
+	padding-top:5%;
+}
+
+.reportInnerCon{
+	background-color:#f2f2f2;
+	border:2px solid #c26c78;
+	border-radius: 1rem;
+	position: relative;
+}
+
+.reportTitleCon{
+	position: absolute;
+	top:-15%;
+	left:0;
+	right: 0;
+	bottom: 0;
+	width: 60%;
+	text-align: center;
+	margin:auto;
+}
+
+.reportTitleBackImg{
+	width:100%;
+}
+
+.reportTitleTextCon{
+	position: absolute;
+	top:8px;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+	color:#fff;
+	font-size:30px;
+	line-height: 34px;
+	font-weight:bold;
+}
+
+.reportTitleTextCon p{
+	margin-top:0.2rem;
+}
+
+.reportContextCon{
+	margin:auto;
+	width:100%;
+	margin-top:10%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5%;
+	color:#f35e28;
+}
+
+.reportLeftUl{
+	margin-top:1rem;
+}
+
+.reportLeftLi{
+	font-weight: bold;
+	font-size:24px;
+	line-height: 26px;
+	text-align: left;
+}
+
+.reportLiItemP{
+	font-size: 20px;
+	line-height: 22px;
+	margin-top:1rem;
+}
+
+.reportLiItemSpan{
+	color:#29292a;
+}
+
+.reportRightCon{
+	margin-left:5%;
+	text-align: left;
+}
+
+.QcodeImg{
+	max-width: 140px;
+}
+
+.reportCodeF{
+	font-size:20px;
+	line-height: 24px;
+	font-weight: bold;
+	margin-top:0.4rem;
+	color:#000;
+}
+
+.QcodePhone{
+
+	font-size:20px;
+	line-height: 24px;
+	font-weight: bold;
+	color:#000;
+}
+
+.QcodeS{
+	font-size:20px;
+	line-height: 24px;
+	font-weight: bold;
+	color:#000;
+}
