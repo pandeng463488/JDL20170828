@@ -9,6 +9,7 @@
 .bannerImg{
 	margin:5% auto;
 	max-width: 680px;
+	width:60%;
 }
 
 .wordCon{
@@ -25,27 +26,31 @@
 .ruguoImg{
 	margin:1% auto;	
 	max-width: 500px;
+	width: 60%;
 }
 
 .tianmaoImg{
 	margin-top:3% auto;
 	max-width: 600px;
+	width:60%;
 }
 
 .TianmaoCon{
 	text-align: center;
 	margin:1% auto;
+	width:90%;
 }
 
 .TianmaoItemCon{
 	margin:auto;
 	margin-top:1rem;
-	min-width: 550px;
+	max-width: 550px;
+	width:45%;
 }	
 
 .TianmaoItem{
 	border:1px solid #feeb68;
-	font-size: 1.8rem;
+	font-size: 34px;
 	display: inline-block;
 	line-height: 1.8rem;
 	color:#feeb68;
@@ -57,6 +62,7 @@
 .anniu1Img{
 	margin:1rem auto;
 	max-width: 400px;
+	width:60%;
 }
 
 .quesIconImg{
@@ -75,10 +81,11 @@
 .kulianImg{
 	z-index: 0;	
 	max-width: 150px;
+	width:40%;
 	position: absolute;
-	top:-30rem;
+	top:-45%;
 	left:0;
-	right: -35rem;
+	right: -35%;
 	bottom: 0;
 	margin:auto;
 }
@@ -86,6 +93,7 @@
 .liutianImg{
 	margin:0.5rem auto;
 	max-width: 450px;
+	width: 60%;
 	display: block;
 }
 
@@ -93,18 +101,20 @@
 
 	margin:1.2rem auto;
 	max-width: 500px;
+	width: 60%;
 	display: block;
 }
 
 .anniu2Img{
 	margin:1em auto;
-	max-width: 500px;
+	max-width: 200px;
+	width: 60%;
 	display: block;
 }
 
 /*----------间隔带------------------------*/
 .brokenGapCon{
-	background:url(../images/broken/brokenGap1.png) no-repeat 0 0 ;
+	background:url(../images/broken/brokenGap1.png) no-repeat center top;
 	height: 232px;
 }
 
@@ -112,7 +122,7 @@
 	margin:auto;
 	padding-top:3rem;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 50px;
 	line-height: 3rem;	
 }
 
@@ -132,7 +142,7 @@
 .brokenGapTextS{
 	color:#fff;
 	font-weight: 900;	
-	font-size: 2.4rem;
+	font-size: 40px;
 }
 
 .brokenGapTextS:after{
@@ -144,7 +154,8 @@
 }
 
 .brokenGapImg{
-	margin:1rem auto;
+	padding:1rem 0;
+	margin:auto;
 	display: block;
 	text-align: center;
 }
@@ -154,14 +165,15 @@
 	background-image:url(../images/broken/taskbackImg.png);
 	background-repeat: repeat;
 	width:100%;
-	padding: 2%;
+	padding: 2% 0;
 }
 
 .taskUl{
 	list-style: none;
 	position: relative;
 	margin:auto;
-	width:1000px;	
+	max-width:1000px;	
+	width:90%;
 }
 
 .taskUl:before{
@@ -198,7 +210,8 @@
 	margin-bottom: 20px;
 	display: inline-block;	
 	margin-left:2%;
-	width: 800px;
+	max-width: 880px;
+	width:85%;
 }
 
 .taskItemContentT{
@@ -213,16 +226,698 @@
 
 .taskItemImgCon{
 	display: block;
-
+	width: 100%;
 }
 
 .taskMoreT{
 	margin-top:4%;
 }
 
-
 .taskItemimg{
 	max-width: 680px;
+	width:80%;
 	display: block;
 	margin-top:0.8rem;
+}
+
+.taskResultItem{
+	display: inline-block;
+}
+
+.taskbottomCon{
+	margin:2rem auto;
+	text-align: center;
+}
+
+/*-------------驱动---------*/
+
+.qiangzhixingImg{
+	max-width: 750px;
+	margin-top:30px;
+	width:80%;
+}
+
+.shopGapCon{
+	background:url(../images/broken/biaotitudi.png) no-repeat center top ;
+}
+
+.shopGapTextS{
+	color:#feeb68;
+	font-weight: 900;
+}
+
+.shopGapTextS:after{
+	content:'」';
+	font-size: 2.4rem;
+	color:#feeb68;
+	line-height: 2rem;
+	vertical-align: bottom;
+}
+
+
+.driverCon{
+	background-image:url(../images/broken/taskbackImg.png);
+	background-repeat: repeat;
+	width:100%;
+}
+
+.driverContainer{
+	padding:5%;
+	margin:auto;
+	text-align: center;
+}
+
+
+.sixdayGapCon{
+	background-image:url(../images/broken/sixdayback.png);
+	background-repeat: repeat;
+	width:100%;
+}
+
+.driverContainer{
+	padding:5%;
+	margin:auto;
+	text-align: center;
+}
+.driverImg{
+	max-width: 750px;
+	width:75%;
+}
+
+/*-------------培训场景-----------------*/
+.trainCourseOuter{
+	background-image:url(../images/broken/taskbackImg.png);
+	background-repeat: repeat;
+	width:100%;
+}
+
+.trainCourseCon{
+	margin:auto;
+	padding:3% 0;
+	text-align: center;
+}
+
+.trainCourseTopCon{
+	margin:3% auto;
+	max-width:1000px;
+	width:100%;
+}
+
+.trainCourseTitle{
+	font-size:50px;
+	color:#feeb68;
+	font-weight: bold;
+	line-height: 52px;
+}
+
+.trainCourseTitle:before{
+	content:'「';
+	vertical-align: top;
+}
+
+.trainCourseTitle:after{
+	content:'」';
+	vertical-align: bottom;
+}
+
+.trainCourseShowCon{
+	margin:auto;
+	margin-top:4%;
+}
+
+.trainCourseTwoCon{
+	margin-top:2%;
+}
+
+.trainCourseItem{
+	border:2px solid #feeb68;
+	background-color:#feeb68;
+	display: inline-block;
+	margin-right: 1rem;
+	max-width: 400px;
+	width:40%;
+}
+
+.trainItemText{
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin:0.2rem 0;
+	color:#18315e;
+}
+.trainItemImg{
+	max-width: 400px;
+	width:100%;
+}
+
+/*--------------- 6天6夜------------*/
+.sixdaynightOuter{
+	background-image:url(../images/broken/taskbackImg.png);
+	background-repeat: repeat;
+	width:100%;
+	padding: 2% 0;
+}
+
+.sixdaynightCon{	
+	padding:1% 0;
+	text-align: center;
+	margin:auto;
+}
+
+.sixdayItemGroupCon{
+	margin-top:3%;
+	display: flex;
+	justify-content:center;
+}
+
+.sixdayItem{
+	background-color:#fff;
+	color:#777777;
+	width:170px;
+	height: 170px;
+	border:1px solid #777;
+	margin-right: 0.4rem;
+}
+
+.sixdayItemhover{
+	background-color:#feeb68;
+}
+
+.sixdayItemTop{
+	margin-top:1rem;
+}
+
+.sixDayF{
+	margin-top:0.5rem;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.sixDayS{
+	font-size: 16px;
+	line-height: 16px;
+	margin-top:0.2rem;
+}
+
+.dayShowCon{
+	display: flex;
+	justify-content:center;
+	margin-top:2rem;
+}
+
+.dayShowItem
+{
+	border:1px solid #feeb68;	
+	width:320px;
+	margin-right: 1rem;
+}
+
+.dayShowItemTitle{
+	background-color:#feeb68;
+	font-size: 24px;
+	line-height: 28px;
+	padding:0.2rem 0;
+	
+}
+
+/*-------------讲师间隔---------------*/
+.teacherGapCon{
+	background:url(../images/broken/teacherGapBackImg.png) center top no-repeat;
+	width:100%;
+}
+
+.brokenGapTextF:before{
+	content:'「';
+	font-size: 2.4rem;
+	line-height: 2rem;
+	vertical-align: top;
+}
+
+.teacherGapTextS{
+	font-weight: 900;	
+	font-size: 40px;
+	color: #feeb68;
+}
+
+.teacherGapTextS:after{
+	content:'」';
+	font-size: 2.4rem;
+	color:#feeb68;
+	line-height: 2rem;
+	vertical-align: bottom;
+}
+
+/*------------------------讲师----------------------*/
+.teacherOuterCon{
+	background-image:url(../images/broken/taskbackImg.png);
+	background-repeat: repeat;
+	width:100%;
+}
+
+.teacherInnerCon{
+	margin:auto;
+	padding:4% 0;
+	text-align: center;
+}
+
+.teacherItemGroup{	
+	display: flex;
+}
+
+.teacherItem{
+	display: flex;
+	margin-top:2rem;
+	margin-right: 1rem;
+}
+
+.teacherItem:hover .teacherItemTextCon{	
+	background-color:#274f95;
+}
+
+.teacherItem:hover{
+	transform:translate(0,-20px);
+	transition:all 0.4s ease;
+}
+
+.teacherItemImg{
+	width:155px;
+	height: 306px;
+}
+
+.teacherItemImgCon{
+	display: inline-block;
+}
+
+.teacherItemTextCon{
+	display: inline-block;
+	width: 175px;
+	height: 296px;
+	background-color:#0f254c;
+	text-align: left;	
+	padding:5px 10px;
+}
+
+.teacherItemName{
+	margin-top:10%;
+	color:#feeb68;
+	font-size:24px;
+	line-height: 30px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding-bottom:0.5rem;
+}
+
+.teacherItemPosName{
+	color:#fff;
+	font-size: 16px;
+	line-height: 16px;
+	margin:0.5rem 0;
+}
+
+.teacherItemIntro{
+	color:#fff;
+	line-height: 18px;
+}
+
+/*---------- 5位实力教练 -----*/
+.teacherCoachCon{
+	margin:5% auto;
+}
+
+.teacherCoachTitle{
+	position: relative;
+}
+
+.teacherCoachTitleImg{
+	margin-top:20px;
+}
+
+.teacherCoachTitleText{
+	color:#feeb68;
+	font-size: 40px;
+	line-height: 40px;
+	position: absolute;
+	top:0%;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+}
+
+.teacherCoachList{
+	margin-top:5%;
+	display: flex;
+	justify-content:center;
+}
+
+/*.teacherCoachItemImgCon{
+	position: relative;
+	width: 160px;
+	border-radius: 80px;
+}
+
+.teacherItemImgShadow{
+	background-color:#000;
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+	width: 100%;
+	height: 100%;
+}
+*/
+.teacherCoachItem{
+	margin-right: 2rem;
+}
+
+.teacherCoachItem:hover .teacherCoachItemImg{
+	transform: rotateY(360deg);
+	transition:all 1s ease;
+}
+
+.teacherCoachItemImg{
+	max-width: 160px;
+	width:100%;
+	margin-bottom: 8px;
+}
+
+.teacherCoachName{
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;	
+	color: #feeb68;
+	margin-bottom: 4px;
+}
+
+.teacherCoachIntro{
+	color:#fff;
+	line-height: 16px;	
+}
+
+.teacherCoachIntro p{
+	margin-top:4px;
+}
+
+.guideCon{
+	margin-top:4%; 
+	display: flex;
+}
+
+.guideTextCon{
+	color:#feeb68;
+	margin:auto;
+	text-align: left;
+}
+
+.guideTextUl{
+	list-style: square;
+}
+
+.guideTextLi{
+	font-size: 22px;
+	line-height: 26px;
+	margin-top: 14px;
+}
+
+.guideSpecial{
+	color:#fff;
+}
+
+/*-----------------学习效果------------------*/
+.learnEffectCon{
+	background: url(../images/broken/learnEffectBack.png) center top no-repeat;
+}
+
+.learnEffectInnerCon{
+	margin:0 auto;
+	text-align: center;
+	padding:2% 0;
+}
+
+.learnEffectTitle{
+	color:#feeb68;
+	font-weight: bold;
+	font-size:50px;
+	line-height: 53px;
+	margin:3% 0;
+}
+
+.learnEffectTitle:before{
+	content:'「';
+	vertical-align: top;
+}
+
+.learnEffectTitle:after{
+	content:'」';
+	vertical-align: bottom;
+}
+
+.learnVideoCon{
+
+}
+
+.learnVideoEleimg{
+	max-width: 380px;
+}
+
+.learnVideoInnerCon{
+	display: inline-block;
+	margin-right: 2rem;
+	vertical-align: bottom;
+}
+
+.learnIntroCon{
+	display: inline-block;
+	width: 320px;
+	text-align: left;
+	color:#fff;
+	height: 240px;
+	vertical-align: bottom;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.shopName{
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 30px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 0.5rem;
+}
+
+
+.learBeforeType{
+	color:#feeb68;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.typeName{
+	margin:2% 0;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 0.5rem;
+}
+
+.learBeforeCon{	
+	margin:2% 0;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 0.5rem;
+}
+
+.learnTrain{
+	margin:2% 0;
+}
+
+.learBeforeContext{
+	
+}
+
+.videoBtnCon{
+	margin-top:6%;
+}
+
+.videoBtn{
+	color:#18315e;
+	background-color: #feeb68;
+	display: inline-block;
+	border-radius: 1rem;
+	padding:0.8rem 1.5rem;
+	text-align: center;
+	margin-right: 5%;
+}
+
+/*-----------报名须知-------*/
+.mustknowCon{
+	margin:3% auto;
+	max-width: 900px;
+	width:100%;
+	padding:2% 0;
+}
+
+.mustknowTitleImg{
+	display: block;
+	margin: auto;
+	max-width: 400px;
+	width: 60%;
+}
+.mustknowQAndAImg{
+	display: block;
+	margin:auto;
+	margin-top:3%;
+	width:30%;
+	max-width: 300px;
+}
+
+.mustkonwItem{
+	text-align: left;
+}
+
+.mustknowItemTitleCon{
+	margin:1rem 0;
+}
+
+.mustknowItemTitle{
+	font-size: 24px;
+	line-height: 26px;
+	background-color:#feeb68;	
+	border-radius: 2rem;
+	padding:0.5rem;
+	color:#18315f;
+	font-weight: bold;
+}
+
+.mustknowCon{
+
+	width:90%;	
+	max-width: 1000px;
+}
+
+.mustknowItemContent{
+	color:#fff;
+	font-weight: 400;
+	font-size:20px;
+	line-height: 26px;
+	margin:4% auto;
+}
+
+
+
+/*---------报名信息-------*/
+.reportOuterCon{
+	background:url(../images/broken/reportBack.png) no-repeat 0 0;
+}
+
+.reportCon{
+	margin:auto;
+	padding:3%;
+	padding-top:3%;
+	text-align: center;
+}
+
+
+.reportInnerCon{
+	background-color: #fff;
+	border:2px solid #394b6d;
+	border-radius: 5px;
+	padding:3%;
+	position: relative;
+	max-width: 800px;
+	margin:auto;
+}
+
+.reportTitleCon{
+	/*position: relative;*/
+}
+
+.reportTitle{
+	position: absolute;
+	top:-1.8rem;
+	left:0;
+	right: 0;
+	margin:auto;
+}
+
+.reportTitleImg{
+	max-width: 270px;
+}
+
+
+.reportContent{
+	margin-top:4%;
+	padding:0 3%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.reportLeftul
+{
+	color:#3351a4;
+	text-align: left;
+}
+
+.reportLeftLi{
+	margin-top:0.5rem;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.reportItemP{
+	color:#000;
+	font-weight: bold;
+}
+
+.reportItemInfo{
+	font-weight: bold;
+	font-size: 24px;
+	color:#18325f;
+}
+
+.reportGapLine{
+	font-weight: bold;
+	margin:1% 0;
+}
+
+.reportAddressItem{
+	color:#000;
+	font-weight: bold;
+	margin-top:0.3rem;
+}
+
+.reportAddressItemInfo{
+	color:#18325f;
+}
+
+.qcodeimg{
+	max-width: 177px;
+	width:100%;
+}
+
+.qcodeTextCon{
+	margin:2% auto;
+	color:#18315f;
+	text-align: left;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.qcodePhone{
+	font-weight: bold;
+}
+
+.qcodeContact{
+	text-align: center;
+}
+
+.qcodeContactImg{
+	width:80%;
+	max-width: 165px;
+	margin:auto;
+	margin-top: 4%;
 }
