@@ -1,4 +1,7 @@
 
+html,body{
+	min-width: 1042px;
+}
 
 .orangeText{
 	color:#ec6c00;
@@ -253,6 +256,84 @@ a.TopABtn:hover{
 
 .gapS3{
 	max-width:820px;
+}
+
+/*------------先行者---------------*/
+.foregoerOuterCon{
+	background-color:#f3f6fb;
+}
+
+.foregoerInterCon{
+	margin:auto;
+	padding:3% 0;
+	text-align: center;
+}
+
+.foregoerItemCon{
+	margin:3% 0;
+
+}
+
+.foregoerABtn{
+	background:url(../images/our/foregoerdashOuter.png) 0 0 no-repeat;
+	height: 136px;
+	width: 200px;
+	display: block;
+	font-size:24px;
+	line-height: 136px;
+	color:#b4b4b5;
+	font-weight: bold;
+}
+
+.foregoerABtn:hover{
+	color:#fff;
+	background-color:#e66b46;
+}
+
+.foregoerABtn1:hover{
+	background:url(../images/our/foregoerABtn1.png) 0 0 no-repeat;
+}
+
+.foregoerABtn2:hover{
+	background:url(../images/our/foregoerABtn2.png) 0 0 no-repeat;
+}
+
+.foregoerABtn3:hover{
+	background:url(../images/our/foregoerABtn3.png) 0 0 no-repeat;	
+}
+
+.foregoerABtn4:hover{
+	background:url(../images/our/foregoerABtn4.png) 0 0 no-repeat;	
+}
+
+.foregoerABtn5:hover{
+	background:url(../images/our/foregoerABtn5.png) 0 0 no-repeat;	
+}
+
+.forgoerHoverDiv,.foregoerItemContentmidCon{
+	display: inline-block;	
+	vertical-align: middle;
+}
+
+.foregoerItemConLeftCon,.foregoerItemConLeftCon{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.5rem ;
+}
+
+.foregoerItemContentCon{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.foregoerItemConUl{
+	list-style: none;
+}
+
+.foregoerItemLi{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.5rem;
 }
 
 /*-------往期培训--------*/
