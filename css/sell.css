@@ -1,3 +1,8 @@
+
+html,body{
+	min-width: 970px;
+}
+
 .bannerCon{
 	height: 505px;
 	background:url(../images/sell/banner.png) top center no-repeat;
@@ -27,10 +32,12 @@
 
 .bannerC1Title{
 	padding-top:3%;
+	max-width: 900px;
 }
 
 .bannerC1MapImg{
 	padding-top:3%;
+	max-width: 800px;
 }
 
 .imgCenterType{
@@ -43,11 +50,13 @@
 }
 
 .bannerC2Title{
-	padding-top:5%;
+	padding-top:7%;
+	max-width: 900px;
 }
 
 .bannerC2MapImg{
 	padding-top:1%;
+	max-width: 900px;
 }
 
 .bannerCon3{
@@ -56,11 +65,13 @@
 }
 
 .bannerC3Title{
-	padding-top:5%;
+	padding-top:8%;
+	max-width: 880px;
 }
 
 .bannerC3p{
-	padding-top:3%;
+	padding-top:1%;
+	max-width: 700px;
 }
 
 .bannerCon4{
@@ -70,7 +81,7 @@
 }
 
 .bannerC4map{
-	max-width: 800px;
+	max-width: 750px;
 	padding-top:3%;
 }
 
@@ -89,4 +100,237 @@
 
 .superCourseTitle{
 	padding-top:4%;
+}
+
+
+/*-----------------教练------------*/
+.coachOuterCon{
+	background-color:#d5e5fe;
+}
+
+.coachCon{
+	margin:auto;
+	padding:5% 0;
+	text-align: center;
+}
+
+.coachTitleImg{
+	max-width: 900px;
+}
+
+.coachItemCon{
+	margin-top:4%;
+	display: flex;
+	justify-content:center;	
+}
+
+.coachItem{
+	width:200px;
+	border:1px solid #8f9399;
+	margin-right: 1rem;	
+}
+
+.coachItemIntroCon{
+	padding: 5%;
+	font-size: 16px;
+	line-height: 20px;
+	color:#0e1445;
+	height: 220px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.coachNameCon{
+	background-color:#8f9399;
+	padding:1rem 0;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 27px;
+	color:#fff;
+}
+
+.coachItem:hover{	
+	border:1px solid #0562fd;
+	cursor: pointer;
+}
+
+.coachItem:hover .coachNameCon{
+	background-color:#0562fd;
+
+}
+
+.reportBtn{
+	max-width: 200px;	
+	width: 25%;
+}
+
+/*---------- 3 + 3 全免学习计划--------*/
+
+.learnPlanOuterCon{
+	background:url(../images/sell/learnPlanBack1.png) 0 0 no-repeat;
+}
+
+.learnPlanInerCon{
+	margin:auto;
+	text-align: center;
+}
+
+.learnPlanCon{
+	margin:auto;
+	height: 764px;
+}
+
+.learPlanImgCon{
+	padding-top:5%;
+}
+
+.learnPlanSubTitleCon{
+	padding-top: 3%;
+}
+
+.learnPlanMidCon{
+	padding-top: 3%;
+}
+
+.learnPlanMidBtnCon{
+	padding-top: 3%;
+	text-align: right;
+}
+
+.learnBtnImg{
+	margin-right: 10%;
+}
+
+.planMidImg{
+	max-width: 900px;
+	width: 80%;
+}
+
+.learnBtnImg{
+	max-width: 200px;
+}
+
+/*----------报名信息----------------*/
+.reportOuterCon{
+	background:url(../images/sell/learnPlanBack2.png) 0 0 no-repeat;
+	padding:3% 0;
+}
+
+.reportInnerCon{
+	margin:auto;
+	padding:3% 0;
+	padding-top:5%;
+	background-color:#f2f2f2;
+	border:2px solid #5b4f70;
+	width: 900px;
+	border-radius: 10px;
+	position: relative;
+}
+
+
+.reportTitleCon{
+	position: absolute;
+	top:-30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	text-align: center;
+}
+
+.reportTitleImg{
+	max-width: 300px;
+}
+
+.reportTitle{
+	color:#fff;
+	font-size: 40px;
+	line-height: 43px;
+	position: absolute;
+	top:8px;
+	left:0;
+	right: 0;
+	margin:auto;
+	font-weight: bold;
+}
+
+.reportContentCon{	
+	margin:3% 4%;
+	color:#12067c;
+	display: flex;
+	justify-content:space-around;	
+}
+
+.reportContentLi{
+	font-weight: bold;
+	font-size:24px;
+	line-height: 30px;
+}
+
+.reportSpecial{
+	color:#000;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.reportGapLine{
+	margin-top:0.4rem;
+}
+
+.reportSubSpecial{
+	color:#000;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.QcodeS,.QCodeT,.QcodeF{
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.QcodeS{
+	font-weight: bold;
+}
+
+.ContactCon{
+	text-align: center;
+}
+
+.ContactImg{
+	max-width: 150px;
+	margin: auto;
+	margin-top:0.4rem;
+}
+
+.reportContentBottomCon{
+	margin:auto 4%;
+	border:1px dashed #12067c;
+	padding:2%;
+}
+
+.reportBottomF{
+	color:#12067c;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.reportBottomS{
+	margin:0.4rem 0;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.reportBottominfoT{
+
+	margin:0.4rem 0;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.reportBottonTextCon{
+	font-size: 20px;
+	line-height: 26px;
+	margin:0.2rem 0;
 }
