@@ -388,6 +388,8 @@
 .sixdayItemGroupCon{
 	margin-top:3%;
 	display: flex;
+	width: 1150px;
+	margin:auto;
 	justify-content:center;
 }
 
@@ -396,12 +398,56 @@
 	color:#777777;
 	width:170px;
 	height: 170px;
-	border:1px solid #777;
 	margin-right: 0.4rem;
+}
+
+.hidetraingleD{
+	width: 0;
+	height: 0;
+	border-top:8px solid #feeb68;
+	border-left: 8px solid transparent;
+	border-right:8px solid transparent;
+	display: none;
+}
+
+
+.sixdayItem:hover{
+	background-color:#feeb68;
+	transform:scale(1.1,1.1);
+	z-index: 10;
+	transition:all 0.4s ease;
+	color:#18315e;
 }
 
 .sixdayItemhover{
 	background-color:#feeb68;
+	transform:scale(1.1,1.1);
+	z-index: 10;
+	transition:all 0.4s ease;
+	color:#18315e;
+}
+
+.sixdayItem:hover .hidetraingleD
+{
+	position: absolute;
+	bottom:-7px;
+	left:0;
+	right: 0;
+	margin:auto;
+	display: block;
+}
+
+.sixdayItem:hover .sixdayItemImgCon{
+	background-position: -72px 0;
+}
+
+.hidetraingleDhover{
+	position: absolute;
+	bottom:-7px;
+	left:0;
+	right: 0;
+	margin:auto;
+	display: block;
 }
 
 .sixdayItemTop{
@@ -421,16 +467,34 @@
 	margin-top:0.2rem;
 }
 
+.dayShowOuterCon{
+	position: relative;
+	width:1164px;
+	height: 400px;
+	text-align: center;
+	margin:auto;
+}
+
 .dayShowCon{
 	display: flex;
 	justify-content:center;
 	margin-top:2rem;
+	position: absolute;
+	top:30px;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+
+.hidenDiv{
+	display: none;
 }
 
 .dayShowItem
 {
 	border:1px solid #feeb68;	
-	width:320px;
+	width:330px;
 	margin-right: 1rem;
 }
 
@@ -439,8 +503,54 @@
 	font-size: 24px;
 	line-height: 28px;
 	padding:0.2rem 0;
-	
 }
+
+.sixdayItemImgDay1{
+	background: url(../images/broken/ideajoin1.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+.sixdayItemImgDay2{
+	background: url(../images/broken/ideajoin2.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay3{
+	background: url(../images/broken/ideajoin3.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay4{
+	background: url(../images/broken/ideajoin4.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay5{
+	background: url(../images/broken/ideajoin5.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay6{
+	background: url(../images/broken/ideajoin6.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
 
 /*-------------讲师间隔---------------*/
 .teacherGapCon{
