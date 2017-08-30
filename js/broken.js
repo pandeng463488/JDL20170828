@@ -7,6 +7,12 @@
 
 	Init();
 
+
+	$("div.sixdayItem").hover(function(){
+		//$(this).find('.sixdayItemImgCon').css('backgroundPosition','-72px 0px');
+	},function(){		
+	});
+
 	$("div.sixdayItem").click(function(){
 		var that = this;
 		var index = $(this).index();
