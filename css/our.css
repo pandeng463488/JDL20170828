@@ -565,12 +565,12 @@ a.TopABtn:hover{
 	display: block;
 	margin-right: 4px;
 	margin-top:6px;
-	border:1px solid #ccc;
+	/*border:1px solid #ccc;*/
 }
 
 .brandItemImg:hover{
 	box-shadow: 0 0 0.4rem 0.2rem #ccc;
-	border:1px solid #ccc;
+	/*border:1px solid #ccc;*/
 	transition: all 0.2s ease-in;
 	transform: scale(1.2,1.2);
 }

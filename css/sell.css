@@ -204,7 +204,7 @@ html,body{
 /*-------------- 课程收获------------------*/
 .gainOuterCon{
 	background-color: #0f0f37;
-	height: 280px;
+	height: 200px;
 }
 
 .gainCon{
@@ -214,6 +214,507 @@ html,body{
 	margin:auto;
 }
 
+.gainPlanOuterCon{
+	background-color: #d5e5fe;
+}
+
+.gainPlanInnerCon{
+	margin:auto;
+	padding-top:3%;
+}
+
+
+	.gainplanVericialTimeLineCon{
+		position: relative;
+		background-color: #c9d7ed;
+		height: 200px;
+	}	
+	
+	.gainplanVericialTimeLineCon:before{
+		content: '';
+		height: 2px;
+		width: 100%;
+		background-color: #ceced0;
+		position: absolute;
+		top:0;
+		left:0;
+		right: 0;
+		bottom:0;
+		margin:auto;
+		display: block;
+	}
+
+	.gainplanTimeLineUl{
+		list-style: none;	
+		position: absolute;
+		top:30px;
+		left:0;	
+		bottom:0;
+		right:0;
+		text-align: center;
+		width: 900px;
+		margin:auto;
+	}
+
+	.gainPlanItemTitle{
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 22px;
+	}
+
+	.gainPlanTimeLineLi{
+		display: inline-block;
+		margin-right: 60px;
+	}
+
+	.gainPlanTimeLineLi:hover{		
+		cursor: pointer;
+	}
+
+	.gainPlanTimeLineLi:hover .gainPlanItemTitle{
+		transform:scale(1.1,1.1);
+		transition:all 0.4s ease;
+	}
+ 
+
+	.gainPlanItemNumberCon{
+		color:#fff;
+		margin-bottom: 40px;
+		display: block;
+		text-align: center;
+		position: relative;		
+	}
+
+	.gainPlanItemNumberCon:after{
+		display: block;
+		content: '';
+		border-left-width: 1px;
+		border-left-style: solid;
+		text-align: center;
+		height: 40px;
+		width: 2px;
+		margin:auto;
+	}
+
+	.gpn1{
+		background-color: #0562fd;
+	}
+
+	.gpnb1:after{
+		border-color: #0562fd;
+	}
+
+	.gpnT1{		
+		color:#0562fd;
+	}
+
+	.gpn2{
+		background-color: #ff8d07;
+	}
+
+	.gpnb2:before{
+		border-color: #ff8d07;
+	}
+
+	.gpnT2{		
+		color:#ff8d07;
+		margin-bottom: 24px;
+	}
+
+
+	.gpn3{
+		background-color: #8600f7;
+	}
+
+	.gpnb3:after{
+		border-color: #8600f7;
+	}
+
+	.gpnT3{		
+		color:#8600f7;
+	}
+
+	.gpn4{
+		background-color: #e20683;
+	}
+
+	.gpnb4:before{
+		border-color: #e20683;
+	}
+
+	.gpnT4{		
+		color:#e20683;
+	}
+
+	.gainPlanItemNumber{
+		padding:2px 0;
+		color:#fff;
+		text-align: center;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.gainplanItemCricle{
+		border-radius: 50%;
+		height: 10px;
+		width: 10px;
+	}
+
+	.topcircleitem{
+		position: absolute;
+		top:67px;
+		left:-3px;
+		right: 0;
+		bottom:0;
+		margin:auto;
+		text-align: center;
+	}
+
+	.topcircleitemB{
+		position: absolute;
+		top:-66px;
+		left:-2px;
+		right: 0;
+		bottom:0;
+		margin:auto;
+		text-align: center;
+	}
+
+	/*---另一种--*/
+
+	.gainPlanItemNumberConB{
+		color:#fff;
+		margin-bottom: 40px;
+		display: block;
+		text-align: center;
+		position: relative;		
+	}
+
+
+	.gainPlanItemNumberConB:before{
+		display: block;
+		content: '';
+		border-left-width: 1px;
+		border-left-style: solid;
+		text-align: center;
+		height: 40px;
+		width: 2px;
+		margin:auto;
+		margin-top:20px;
+	}
+
+.gainplanContentShowCon{
+	margin:auto;
+	padding-top:4%;
+	height: 500px;
+	position: relative;
+	background-color: #d5e5fe;
+	text-align: center;
+}
+
+.gainplanContentShowItem{
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+}
+
+.gpTimeLineUl{
+	list-style: none;
+	position: absolute;
+	margin-top:40px;
+	margin-left: 40px;
+	padding-bottom: 30px;	
+}
+
+.gpTimeLineUl:before{
+	content: '';
+	height: 100%;
+	width: 2px;
+	position: absolute;
+	top:0;
+	left:0px;
+	right: 0;
+	bottom: 0;
+}
+
+.gpTimeLineNum{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 50px;
+	color:#fff;
+	font-size:35px;
+	position: absolute;
+	left: -23px;
+    top: -20px;
+}
+
+.gpTimeLineContentList{
+	margin-left:50px;
+}
+
+.gpTimeLineTitle{
+	font-weight: bold;
+	text-align: left;
+	font-size:22px;
+	line-height: 26px;
+}
+
+.gpTimeListContent{
+	padding:20px;
+	text-align: left;
+	width: 920px;
+}
+
+.gptlListItem{
+	display: inline-block;
+	width:200px;
+	margin-top:10px;
+	margin-right: 10px;
+}
+
+.gpliTitleC{
+	font-size: 17px;
+	line-height: 20px;
+	color:#fff;
+	padding:4px 0;
+	text-align: center;
+}
+
+.gptlimgCon{	
+	border-style: dashed;
+	border-width: 1px;
+}
+
+.hidden{
+	display: none;
+}
+
+/*-----颜色组合-----*/
+.gptlnumco1{
+	background-color: #0562fd;
+}
+
+.gptltco1{
+	color:#0562fd;
+}
+
+.gptlul1:before
+{
+	background-color: #0562fd;
+}
+
+.gplistitemborderc1{
+	border-color: #0562fd;
+}
+
+.gpliTitleC1{
+	background-color: #0562fd;
+}
+
+/*-----------2--------------*/
+.gptlnumco2{
+	background-color: #ff8d07;
+}
+
+.gptltco2{
+	color:#ff8d07;
+}
+
+.gptlul2:before
+{
+	background-color: #ff8d07;
+}
+
+.gplistitemborderc2{
+	border-color: #ff8d07;
+}
+
+.gpliTitleC2{
+	background-color: #ff8d07;
+}
+
+/*-----------3--------------*/
+.gptlnumco3{
+	background-color: #8600f7;
+}
+
+.gptltco3{
+	color:#8600f7;
+}
+
+.gptlul3:before
+{
+	background-color: #8600f7;
+}
+
+.gplistitemborderc3{
+	border-color: #8600f7;
+}
+
+.gpliTitleC3{
+	background-color: #8600f7;
+}
+
+/*-----------4--------------*/
+.gptlnumco4{
+	background-color: #e20683;
+}
+
+.gptltco4{
+	color:#e20683;
+}
+
+.gptlul4:before
+{
+	background-color: #e20683;
+}
+
+.gplistitemborderc4{
+	border-color: #e20683;
+}
+
+.gpliTitleC4{
+	background-color: #e20683;
+}
+
+/*----------------- 视觉模板 -------------------*/
+.viewOuterCon{
+	background:url(../images/sell/viewback1.png) 0 0 no-repeat;
+	height: 707px;
+}
+
+.viewCon{
+	margin:auto;
+	padding-top:4%;
+}
+
+.viewContentCon{
+	margin-top:4%;
+	text-align: center;
+	position: relative;
+}
+
+.viewShowImgCon{
+	display: inline-block;
+	text-align: center;
+	width: 450px;
+	top:0;
+
+}
+
+.viewShowImg{
+	width: 450px;
+	position: absolute;
+	top:80px;
+	left:100px;
+	right: 0;
+	bottom:0;
+}
+
+.viewshowRightMenu{
+	display: inline-block;
+}
+
+.viewshowMenumPart{
+	margin-top:30px;
+}
+
+.viewMenuCon{
+	margin-top:40px;
+}
+
+.viewMenuItem{
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.viewMenuItemTextCon{
+	color:#fff;
+	font-size:20px;
+	line-height: 20px;
+	font-weight: bold;
+	margin-top:12px;
+}
+
+.viewMenuItemImgCon{
+	height: 94px;
+	width: 94px;
+}
+
+.viewTitleCon {
+	text-align: center;
+}
+
+.viewc11{
+	background:url(../images/sell/viewcontent11.png) 0 0 no-repeat;
+}
+
+.viewc12{
+	background:url(../images/sell/viewcontent12.png) 0 0 no-repeat;
+}
+
+.viewc13{
+background:url(../images/sell/viewcontent13.png) 0 0 no-repeat;
+}
+
+.viewc14{
+background:url(../images/sell/viewcontent14.png) 0 0 no-repeat;
+}
+
+.viewc21{
+background:url(../images/sell/viewcontent21.png) 0 0 no-repeat;
+}
+
+.viewc22{
+background:url(../images/sell/viewcontent22.png) 0 0 no-repeat;
+}
+
+.viewc23{
+background:url(../images/sell/viewcontent23.png) 0 0 no-repeat;
+}
+
+.viewc24{
+background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
+}
+
+
+.viewc11:hover{
+	background:url(../images/sell/viewcontent11.png) -94px 0 no-repeat;
+}
+
+.viewc12:hover{
+	background:url(../images/sell/viewcontent12.png) -94px 0 no-repeat;
+}
+
+.viewc13:hover{
+	background:url(../images/sell/viewcontent13.png) -94px 0 no-repeat;
+}
+
+.viewc14:hover{
+	background:url(../images/sell/viewcontent14.png) -94px 0 no-repeat;
+}
+
+.viewc21:hover{
+	background:url(../images/sell/viewcontent21.png) -94px 0 no-repeat;
+}
+
+.viewc22:hover{
+	background:url(../images/sell/viewcontent22.png) -94px 0 no-repeat;
+}
+
+.viewc23:hover{
+	background:url(../images/sell/viewcontent23.png) -94px 0 no-repeat;
+}
+
+.viewc24:hover{
+	background:url(../images/sell/viewcontent24.png) -94px 0 no-repeat;
+}
 
 
 
