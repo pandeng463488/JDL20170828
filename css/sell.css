@@ -1,6 +1,6 @@
 
 html,body{
-	min-width: 970px;
+	min-width: 1000px;
 }
 
 .bannerCon{
@@ -137,8 +137,15 @@ html,body{
 }
 
 .courseItem:hover{
+	/*color:#ad0062;*/
+	/*background:url(../images/sell/selldayback.png) -182px 0 no-repeat;*/
+	transform:scale(1.1,1.1);
+}
+
+.courseItemhover{
 	color:#ad0062;
 	background:url(../images/sell/selldayback.png) -182px 0 no-repeat;
+
 }
 
 .surperCourseOuterCon{
@@ -146,9 +153,11 @@ html,body{
 }
 
 .surperCourseCon{
-	padding:3% 0;
+	padding-top:2%;
 	margin:auto;	
 	width:1000px;
+	padding-bottom: 3%;
+	height: 750px;
 }
 
 .surperCourseItem{
@@ -157,6 +166,7 @@ html,body{
 	margin-top:15px;
 	text-align: center;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .surperCourseImgCon{
@@ -192,7 +202,7 @@ html,body{
 .surperCourseContentCon{
 	padding-top:1rem;
 	background-color: #adcaf9;
-	height: 100px;
+	height: 146px;
 	font-size:17px;
 	line-height: 20px;
 	color:#100763;	
@@ -594,30 +604,34 @@ html,body{
 }
 
 .viewContentCon{
-	margin-top:4%;
-	text-align: center;
-	position: relative;
+	margin-top:2%;
+	position: relative;    
+	display: flex;
+    justify-content: space-between;
 }
 
 .viewShowImgCon{
-	display: inline-block;
 	text-align: center;
-	width: 450px;
-	top:0;
-
+    width: 450px;
+    top: 0;
+    left: 20px;
+    display: block;
+    /* position: absolute; */
 }
 
 .viewShowImg{
-	width: 450px;
 	position: absolute;
+	width: 420px;
 	top:80px;
-	left:100px;
+	left:20px;
 	right: 0;
 	bottom:0;
 }
 
 .viewshowRightMenu{
-	display: inline-block;
+	display: block;
+	width: 470px;
+
 }
 
 .viewshowMenumPart{
@@ -716,7 +730,123 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 	background:url(../images/sell/viewcontent24.png) -94px 0 no-repeat;
 }
 
+/*------------------大咖-------------------*/
+.dakaOuterCon{
+	background:url(../images/sell/viewback2.png) 0 0 no-repeat;
+	height: 922px;
+}
 
+.dakaCon{
+	margin:auto;
+	text-align: center;
+}
+
+.dakaContextCon{
+	padding-top:3%;
+	margin:auto;
+}
+
+.dakaIntroCon{
+	height: 484px;
+	overflow: hidden;
+}
+
+.dakaIntroTable{
+	text-align: center;
+	margin:auto;
+}
+
+.dakaTeacherImgCon{
+	margin-left: 100px;
+	margin-right: 20px;
+}
+
+.dakaTeacherRightTextCon{
+	position: relative;
+}
+
+.dakaTeacherNameCon{
+	text-align: center;
+	background:url(../images/sell/dakaTeacherNameBackImg.png) center center no-repeat;
+	height: 147px;
+	width: 147px;
+	line-height: 147px;
+	color:#fff;
+	font-size: 23px;
+	font-weight: bold;
+	position: absolute;
+	top:81px;
+	left:-14px;
+	right: 0;
+	bottom:0;	
+}
+
+.dakaTeacherNameImg{
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	color:#fff;
+}
+
+.dakaTeacherP{
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	color:#fff;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.dakaTeacher{
+	text-align: left;
+	background:url(../images/sell/dakaTeacherIntroBackImg.png) center center no-repeat;
+	padding:140px;
+	
+	vertical-align: middle;	
+	width: 320px;
+}
+
+.dakaTeacherText{
+	font-size:18px;
+	line-height: 20px;
+	color:#fff;	
+	vertical-align: middle;	
+}
+
+.dakaTeacherText p{
+	margin-top:14px;
+}
+
+.dakaTeacherLittleList{
+	padding-top:2%;
+	display: flex;
+	justify-content:space-between;
+	width: 450px;
+	margin-left: 220px;
+}
+
+.teachercommituCon{
+	padding-top: 4%;
+	text-align: right;
+}
+
+.teacherCommon{
+	margin-right: 20%;
+}
+
+.dakateacherItem{
+	border:1px solid #fff;
+}
+.dakateacherItem:hover{
+	border:1px solid #0562fd;
+}
 
 /*-----------------教练------------*/
 .coachOuterCon{
@@ -734,9 +864,12 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 }
 
 .coachItemCon{
-	margin-top:4%;
 	display: flex;
-	justify-content:center;	
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 4%;
 }
 
 .coachItem{
