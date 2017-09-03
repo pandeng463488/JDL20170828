@@ -6,6 +6,8 @@ body {
     _zoom: 1;
 }
 
+
+
 div,p,span,img{}
 
 .fixedWidth{max-width:1200px; min-width: 800px;}
@@ -128,6 +130,10 @@ div,p,span,img{}
 }
 
 a.TopABtn:hover{
+	background-color: #e77817;
+}
+
+.aTtopABtnhover{
 	background-color: #e77817;
 }
 
