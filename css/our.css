@@ -3,6 +3,55 @@ html,body{
 	min-width: 1042px;
 }
 
+.videoShadow{
+	background-color: #000;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	position:fixed;
+	top:0;
+	left:0;
+	right: 0;
+	bottom:0;
+	width:100%;
+	height: 100%;
+	z-index: 20;
+	display: none;
+}
+
+.vidoeShowContainer{
+	position:fixed;
+	top:0;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+	width: 680px;
+    height: 470px;
+	z-index: 30;
+	display: none;
+}
+
+.operaDivCon{	
+	width:671px;
+}
+
+.operaDicInerCon{
+	text-align:right;
+}
+
+#closeVideo{
+	margin-right: 20px;
+	color:#db4e1d;
+	font-size:22px;
+	line-height: 30px;
+}
+
+.videoEleContainer{	
+	width: 652px;
+    height: 444px;
+	border:2px solid #db4e1d;
+}
+
 .orangeText{
 	color:#ec6c00;
 }
@@ -142,15 +191,15 @@ a.TopABtn:hover{
 
 .bannerBig{
 	font-weight: bold;
-	font-size:4rem;
-	line-height: 5rem;
+	font-size:70px;
+	line-height: 80px;
 	color:#ff4600;
 }
 
 .bannerLit{	
 	font-weight: bold;
-	font-size:2rem;
-	line-height:3rem;
+	font-size:40px;
+	line-height:50px;
 	color:#ff4600;
 }
 
@@ -180,16 +229,19 @@ a.TopABtn:hover{
 .gapContent{
 	margin:auto;
 	text-align: center;	
+	overflow: hidden;
 }
 
 .gapFirstT{
 	color:#fff;
-	font-size: 3.4rem;
-	line-height: 3.8rem;
+	font-size: 62px;
+	line-height: 70px;
 	font-weight: bold;
 	letter-spacing: 1rem;
 	padding-top:2rem;
 	text-indent: 0.8rem;
+	width:1200px;
+	overflow: hidden;
 }
 
 .gapSecondT{
@@ -209,16 +261,35 @@ a.TopABtn:hover{
 
 .gapSecondText{
 	color:#db4e1d;
-	line-height: 2rem;
-	font-size:1.5rem;
+	line-height: 40px;
+	font-size:32px;
 	font-weight: bold;
 }
 
 
 /*快、准、狠*/
 .quickContainer{
-	margin:5% auto;
+	margin:3% auto;
 	text-align: center;
+}
+
+.quickItemImgCon{
+	margin-bottom: 20px;
+}
+
+.quickItemCon{
+	display: inline-block;
+}
+
+.quickItemGapLineDiv{
+	display: inline-block;
+	border-left:1px dashed #ff4600;
+	width:1px;
+	height: 200px;
+	margin-bottom:180px;
+	margin-left:40px;
+	margin-right: 40px;
+
 }
 
 .threeContentD{
@@ -231,13 +302,15 @@ a.TopABtn:hover{
 
 .threeItemText{
 	color:#5d5c5c;
-	font-size:1rem;
-	line-height: 1.2rem;
+	font-size:20px;
+	line-height: 28px;
 	font-weight: 500;
+	font-weight: 600;
+	margin-top:5px;
 }
 
 .gapS1{
-	max-width:340px;
+	max-width:370px;
 }
 
 .gapT2{	
@@ -246,7 +319,7 @@ a.TopABtn:hover{
 }
 
 .gapS2{
-	max-width:460px;
+	max-width:658px;
 }
 
 .gapT3{	
@@ -255,7 +328,7 @@ a.TopABtn:hover{
 }
 
 .gapS3{
-	max-width:820px;
+	max-width:935px;
 }
 
 /*------------先行者---------------*/
@@ -313,6 +386,28 @@ a.TopABtn:hover{
 .forgoerHoverDiv,.foregoerItemContentmidCon{
 	display: inline-block;	
 	vertical-align: middle;
+	overflow: hidden;
+}
+
+.foregoerItemConLeftBtnImg:hover{
+	cursor: pointer;
+}
+
+.foregoerItemContentmidCon{
+
+	width:615px;
+	height: 96px;
+}
+
+.boxContainer{
+	width:1464px;
+}
+
+.boxImgItem{
+	width:197px;
+	height:96px;
+	margin:0 4px;	
+	float:left;		
 }
 
 .foregoerItemConLeftCon,.foregoerItemConLeftCon{
@@ -349,13 +444,50 @@ a.TopABtn:hover{
 }
 
 .EachTrainItemFourCon{
-	display: inline-block;
+	display: block;
 }
+
 
 .EachTrainItem{
 	position: relative;	
 	margin-right: 10px;
 	margin-top: 10px;
+	display: inline-block;
+	border:2px solid #ccc;
+}
+
+.EachTrainItem:hover{
+	cursor: pointer;
+	border:2px solid #ff4600;
+}
+
+.EachTrainItem:hover .eachTranBottomText{
+	color:#ff4600;
+
+}
+
+
+.eachTrainBottomCon{
+	position: absolute;	
+	bottom:0;
+	left:0;
+	right: 0;
+	font-size:20px;
+	line-height: 24px;
+	color:#fff;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+
+.hidenShoadow{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	background-color: #000;
+	height: 30px;position: absolute;	
+	bottom:0;
+	left:0;
+	right: 0;
+	z-index: -1;
 }
 
 .EachTrainItemContext{
@@ -367,11 +499,10 @@ a.TopABtn:hover{
 	font-size:1rem;
 	color:#fff;
 	font-weight: bold;
-	background-color:#754021;
+	background-color:#754021 ;	
 	padding:0.6rem 0;
 	opacity: 0.7;
 	filter:alpha(opacity=70);
-	display: none;
 }
 
 .EachTrainItem:hover .EachTrainItemContext{
@@ -402,11 +533,11 @@ a.TopABtn:hover{
 
 /*另一种风格的间隔*/
 .gapFirstOther{
-	font-size:55px;    
+	font-size:60px;    
 	color: #fff;
-    line-height: 3.8rem;
+    line-height: 70px;
     font-weight: bold;
-    letter-spacing: 0.4rem;
+    letter-spacing: 6px;
     padding-top: 3.6rem;
     text-indent: 0.8rem;
 }
@@ -456,7 +587,7 @@ a.TopABtn:hover{
 
 .TeacherItemIntroCon{
 	position: absolute;
-	top:80%;	
+	top:78%;	
 	text-align: left;
 	padding:0.2rem 0.8rem;
 	color:#fff;
@@ -479,15 +610,19 @@ a.TopABtn:hover{
 .TeacherName{
 	font-size:28px;
 	line-height: 34px;
+	font-weight: bold;
 }
 
 .TeacherPosition{
 	font-size: 20px;
 	line-height: 24px;
+	margin-bottom: 8px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 8px;
 }
 
 .TeacherItem:hover .TeacherItemIntroCon{
-	top:55%;
+	top:45%;
 	bottom:0;
 	transition:all 0.1s ease-in ;
 }
@@ -518,10 +653,30 @@ a.TopABtn:hover{
 
 .CoachItemIntroCon{
 	position: absolute;
-	top:100%;
+	top:62%;
 	left:0;
 	right:0;
 	color:#fff;
+	height: 100%;
+}
+
+.coachItemHoverBlack{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	background-color: #000;
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	width:100%;
+	height: 100%;
+	z-index: 20;
+}
+
+.hidden{
+	display: none;
 }
 
 .CoachName{
@@ -544,11 +699,6 @@ a.TopABtn:hover{
 	z-index: -1;
 }
 
-.CoachItem:hover .CoachItemIntroCon{
-	top:62%;
-	bottom:0;
-	transition:all 0.1s ease-in;
-}
 
 .BrandOuterCon{
 	background-color:#cde2f1;
@@ -556,8 +706,9 @@ a.TopABtn:hover{
 }
 
 .BrandCon{
-	width:1100px;
+	width:995px;
 	margin:auto;
+	padding-left: 17px;
 }
 
 .brandItemImg{
@@ -630,6 +781,7 @@ a.TopABtn:hover{
 .gapT4{
 	text-indent: 0;
 	letter-spacing: 0.05rem;
+
 }
 
 .gapS4
@@ -855,11 +1007,15 @@ a.TopABtn:hover{
 
 .reportOuterCon{
 	background:url(../images/our/reportBack.png) 0 0 no-repeat;
+	height: 551px;
+}
+
+.reportLeftCon{
+	margin-right: 85px;
 }
 
 .reportCon{
 	margin:auto;
-	padding:3% 0;
 	text-align: center;
 	width: 1000px;
 	padding-top:5%;
@@ -867,7 +1023,7 @@ a.TopABtn:hover{
 
 .reportInnerCon{
 	background-color:#f2f2f2;
-	border:2px solid #c26c78;
+	border:8px solid #c26c78;
 	border-radius: 1rem;
 	position: relative;
 }
@@ -907,10 +1063,10 @@ a.TopABtn:hover{
 .reportContextCon{
 	margin:auto;
 	width:100%;
-	margin-top:10%;
+	margin-top:8%;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	color:#f35e28;
 }
 
@@ -941,7 +1097,7 @@ a.TopABtn:hover{
 }
 
 .QcodeImg{
-	max-width: 140px;
+	max-width: 160px;
 }
 
 .reportCodeF{
@@ -960,9 +1116,18 @@ a.TopABtn:hover{
 	color:#000;
 }
 
+.reportQcodeCon{
+	text-align: center;
+}
+
 .QcodeS{
 	font-size:20px;
 	line-height: 24px;
 	font-weight: bold;
 	color:#000;
+}
+
+.QcodeBtnCon{
+	margin:auto;
+	margin-top:20px;
 }

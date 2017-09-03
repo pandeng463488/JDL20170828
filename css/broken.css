@@ -765,6 +765,7 @@
 /*-----------------学习效果------------------*/
 .learnEffectCon{
 	background: url(../images/broken/learnEffectBack.png) center top no-repeat;
+	height: 636px;
 }
 
 .learnEffectInnerCon{
@@ -778,7 +779,7 @@
 	font-weight: bold;
 	font-size:50px;
 	line-height: 53px;
-	margin:3% 0;
+	margin:1% 0;
 }
 
 .learnEffectTitle:before{
@@ -792,7 +793,10 @@
 }
 
 .learnVideoCon{
-
+	height: 345px;
+    width: 1081px;
+    margin: auto;
+    margin-top: 68px;    
 }
 
 .learnVideoEleimg{
@@ -800,18 +804,25 @@
 }
 
 .learnVideoInnerCon{
-	display: inline-block;
-	margin-right: 2rem;
+	float:left;	
 	vertical-align: bottom;
+	width: 512px;
+	height: 304px;
+	margin:auto;
+	margin-right: 2rem;
+	border:2px solid #feeb68;
+}
+
+.learnVideoInnerCon embed{
 }
 
 .learnIntroCon{
-	display: inline-block;
-	width: 320px;
+	float:left;	
+	width: 490px;
 	text-align: left;
+	vertical-align: bottom;
 	color:#fff;
 	height: 240px;
-	vertical-align: bottom;
 	font-size: 20px;
 	line-height: 24px;
 }
@@ -853,7 +864,11 @@
 }
 
 .videoBtnCon{
-	margin-top:6%;
+	margin-top:1%;
+}
+
+.preBtn{	
+	margin-right: 5%;
 }
 
 .videoBtn{
@@ -863,7 +878,9 @@
 	border-radius: 1rem;
 	padding:0.8rem 1.5rem;
 	text-align: center;
-	margin-right: 5%;
+	font-size:20px;
+	line-height: 20px;
+	font-weight: bold;
 }
 
 /*-----------报名须知-------*/

@@ -6,6 +6,8 @@ body {
     _zoom: 1;
 }
 
+div,p,span,img{}
+
 .fixedWidth{max-width:1200px; min-width: 800px;}
 
 .clear{clear:both;}

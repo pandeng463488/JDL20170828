@@ -1,0 +1,1145 @@
+.bannerCon{
+	background:url(../images/fuhua/banner.png) center top no-repeat;
+	height: 505px;
+}
+
+
+.thoseYearCon{
+	margin:5% auto;
+	text-align: center;	
+}
+
+.thosBtnCon{
+	margin-top:3%;
+	text-align: right;
+}
+
+.thoseBtn{
+	margin-right: 15%;
+}
+
+.todayOuterCon{
+	background: url(../images/fuhua/musthaveBack.png) center top no-repeat;
+	height: 312px;
+}
+
+.todayCon{
+	text-align: center;
+	margin:auto;	
+}
+
+.tuchuCon{
+	 padding-top:6%;
+	 color:#fff;
+	 font-size: 40px;
+	 line-height: 45px;
+	 font-weight: bold;
+}
+
+.mustHaveText{
+	padding-top:6%;
+	color:#ff4959;
+	font-size:35px;
+	font-weight: bold;
+	line-height: 60px;
+	vertical-align: middle;
+}
+
+.mustHaveText:before{
+	content: '“';
+	margin-right: 12px;	
+	color:#c1c1c3;
+	font-size:60px;
+	line-height: 60px;
+	vertical-align: middle;
+}
+
+.mustHaveText:after{
+	content: '”';
+	margin-left: 12px;	
+	color:#c1c1c3;
+	font-size:60px;
+	line-height: 60px;	
+	vertical-align: middle;
+}
+
+.musthaveOuterCon{
+	margin:2% 0;
+	padding:1% 0;
+}
+
+/*--------四项基本功----------*/
+.fourHaveCon{
+	margin:auto;
+	text-align:center;
+}
+
+.fourItem{
+	display: inline-block;
+	height: 174px;
+	width: 500px;
+	text-align:left;
+	vertical-align: top;
+}
+
+.fourItemTitle{
+	margin-top:6%;
+	margin-left:8%;
+	color: #fff;
+	font-weight: bold;
+	font-size:28px;
+	line-height: 28px;
+	vertical-align: middle;
+}
+
+.fourItemTitleText{
+
+}
+
+.fourItemTitleForeImg{
+	vertical-align: middle;
+}
+
+.fourItemIntroCon{
+	width: 320px;
+	margin:3% 8%;
+}
+
+.fourGroupCon{
+	width: 1100px;
+	text-align: center;
+	margin:auto;
+}
+.fourItemGTwo{
+	margin-top:10px;
+}
+
+.fit1{
+	background: url(../images/fuhua/fourb1.png)  0 0 no-repeat;	
+	margin-right: 10px;
+}
+
+.fit1 .fourItemIntroCon
+{
+	color:#1770a4;
+	font-size:18px;
+	line-height: 18px;
+}
+
+.fit2{
+	background: url(../images/fuhua/fourb2.png)  0 0 no-repeat;
+}
+
+.fit2 .fourItemIntroCon
+{
+	color:#1770a4;
+	font-size:18px;
+	line-height: 18px;
+}
+
+.fit3{
+	background: url(../images/fuhua/fourb3.png)  0 0 no-repeat;
+	margin-right: 10px;
+}
+
+.fit3 .fourItemIntroCon
+{
+	color:#1770a4;
+	font-size:18px;
+	line-height: 18px;
+}
+
+.fit4{
+	background: url(../images/fuhua/fourb4.png)  0 0 no-repeat;
+}
+
+.fit4 .fourItemIntroCon
+{
+	color:#1770a4;
+	font-size:18px;
+	line-height: 18px;
+}
+
+
+.fourhaveBtnCon{
+	margin-top:5%;
+	text-align: right;
+}
+
+.fourHaveBtn{
+	margin-right: 5%;
+}
+
+/*-------------面对问题-----------------*/
+.faceQuesOuterCon{
+	background: url(../images/fuhua/faceQuesBack.png)  0 0 no-repeat;
+	height: 463px;
+}
+
+.faceQuesCon{
+	margin:auto;
+	text-align:center;
+}
+
+.faceQuesTopTitleCon{
+	 padding-top:6%;
+	 color:#ff4959;
+	 font-weight: bold;
+	 font-size:40px;
+	 line-height: 40px;
+}
+
+.faceQuesSecondTitle{
+	margin-top:8%;
+	color:#fff;
+	font-size:25px;
+	font-style:italic;
+	line-height: 35px;
+}
+
+.faceQuesThreeTitleCon{
+	margin-top:4%;
+	color:#ff4959;
+}
+
+.faceQuesSubBig{
+	font-size:40px;
+	line-height: 44px;
+	font-weight: bold;
+}
+
+.faceQuesSub{
+	font-size:30px;
+	line-height: 36px;
+}
+
+.faceQuesSub:before{
+	content: '“';
+	margin-right: 12px;	
+	color:#c1c1c3;
+}
+
+.faceQuesSub:after{
+	content: '”';
+	margin-left: 12px;	
+	color:#c1c1c3;
+}
+
+/*----------------孵化特训营---------------------*/
+
+.singleBrokenCon{
+	margin:3% auto;
+	text-align: center;
+}
+
+.singleBorkenTitleCon{
+	color:#100763;
+	font-size:40px;
+	line-height: 40px;
+	font-weight: bold;
+	border-bottom: 2px solid #c9c9c9;
+	padding-bottom: 2%;
+	width: 460px;
+	margin:0 auto;	
+	margin-bottom: 2%;
+}
+
+.singleBrokenContent{
+	position: relative;
+	height: 700px;
+	width: 1100px;
+	text-align: center;
+	margin:auto;
+}
+
+
+.sbContentItem{
+	position: absolute;
+}
+
+.sbcon1{
+	top:50px;
+	left:0;
+}
+
+.sbcon2{
+	top:360px;
+	left:0;
+}
+
+.sbcon3{
+	top:50px;
+	right: 0;
+}
+
+.sbcon4{
+	top:360px;
+	right: 0;
+}
+
+.sbcon5{
+	top:525px;
+	margin:0 auto;
+	left:0;
+	right: 0;
+}
+
+.sbcon6{
+	margin:0 auto;
+	top:100px;
+	left:0;
+	right: 0;
+}
+
+.sbContentItemTextCon{
+	display: flex;
+    margin-top: 11px;
+    margin-left: 50px;
+}
+
+.sbTextBeforeImg{
+	padding-top:5px;
+}
+
+.sbContentText{
+	margin-left: 8px;
+    width: 255px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505052;    
+}
+
+.sbContentItemTextConSpecial{
+	width:300px;
+	display: flex;
+	margin:auto;
+	padding-left:120px;
+	margin-top:8px;
+}
+
+.singleBrokenBtnCon{
+	text-align: right;
+}
+
+.singleBrokenBtn{
+	margin-right: 5%;
+}
+
+/*-------------------孵化流程图---------*/
+.processOuterCon{
+	background-color: #10003c;
+	padding:3% 0; 
+}
+
+.processTitleCon{
+	background:url(../images/fuhua/fuhuatitleback.png) center top no-repeat;
+	height: 238px;
+	text-align: center;
+}
+
+.processTitleConText{
+	margin:auto;
+	color:#ff4959;
+	font-size:50px;
+	line-height: 50px;
+	font-weight: bold;
+	padding-top:78px;
+}
+
+.processCon{
+	margin:auto;
+	text-align:center;
+}
+
+.processContent{
+	margin:auto;
+	text-align:center;
+}
+
+.processBtnCon{
+	margin-top:2%;
+	text-align:right;
+}
+
+.processBtnImg{
+	margin-right: 5%;
+}
+
+/*----------名师指路-----*/
+.mingshizhilu{
+	padding-top:8%;
+	color:#ff4959;
+	font-size:35px;
+	font-weight: bold;
+	line-height: 60px;
+	vertical-align: middle;
+}
+
+.mingshizhilu:before{
+	content: '“';
+	margin-right: 12px;	
+	color:#c1c1c3;
+	font-size:60px;
+	line-height: 60px;
+	vertical-align: middle;
+}
+
+.mingshizhilu:after{
+	content: '”';
+	margin-left: 12px;	
+	color:#c1c1c3;
+	font-size:60px;
+	line-height: 60px;	
+	vertical-align: middle;
+}
+
+
+
+/*--------------- 6天6夜------------*/
+.sixdaynightOuter{
+	background-image:url(../images/broken/taskbackImg.png);
+	background-repeat: repeat;
+	width:100%;
+	padding: 2% 0;
+}
+
+.sixdaynightCon{	
+	padding:1% 0;
+	text-align: center;
+	margin:auto;
+}
+
+.sixdayItemGroupCon{
+	margin-top:3%;
+	display: flex;
+	width: 1150px;
+	margin:auto;
+	justify-content:center;
+}
+
+.sixdayItem{
+	background-color:#fff;
+	color:#777777;
+	width:170px;
+	height: 170px;
+	margin-right: 0.4rem;
+	border:1px solid #ccc;
+}
+
+.hidetraingleD{
+	width: 0;
+	height: 0;
+	border-top:8px solid #79ceff;
+	border-left: 8px solid transparent;
+	border-right:8px solid transparent;
+	display: none;
+}
+
+
+.sixdayItem:hover{
+	/*background-color:#feeb68;*/
+	transform:scale(1.1,1.1);
+	z-index: 10;
+	transition:all 0.4s ease;
+	/*color:#18315e;*/
+	cursor: pointer;
+}
+
+.sixdayItemhover{
+	background-color:#79ceff;
+	transform:scale(1.1,1.1);
+	z-index: 10;
+	transition:all 0.4s ease;
+	border:1px solid #79ceff;
+	color:#fff;
+}
+
+/*.sixdayItem:hover .hidetraingleD
+{
+	position: absolute;
+	bottom:-7px;
+	left:0;
+	right: 0;
+	margin:auto;
+	display: block;
+}*/
+
+/*.sixdayItem:hover .sixdayItemImgCon{
+	background-position: -72px 0;
+}*/
+
+.hidetraingleDhover{
+	position: absolute;
+	bottom:-7px;
+	left:0;
+	right: 0;
+	margin:auto;
+	display: block;
+}
+
+.sixdayItemTop{
+	margin-top:1rem;
+}
+
+.sixDayF{
+	margin-top:0.5rem;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.sixDayS{
+	font-size: 16px;
+	line-height: 16px;
+	margin-top:0.2rem;
+}
+
+.dayShowOuterCon{
+	position: relative;
+	width:1164px;
+	height: 400px;
+	text-align: center;
+	margin:auto;
+}
+
+.dayShowCon{
+	display: flex;
+	justify-content:center;
+	margin-top:2rem;
+	position: absolute;
+	top:30px;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+
+.hidenDiv{
+	display: none;
+}
+
+.dayShowItem
+{
+	border:1px solid #79ceff;	
+	width:330px;
+	margin-right: 1rem;
+}
+
+.dayShowItemTitle{
+	background-color:#79ceff;
+	font-size: 24px;
+	line-height: 28px;
+	padding:0.2rem 0;
+}
+
+.sixdayItemImgDay1{
+	background: url(../images/broken/ideajoin1.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+.sixdayItemImgDay2{
+	background: url(../images/broken/ideajoin2.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay3{
+	background: url(../images/broken/ideajoin3.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay4{
+	background: url(../images/broken/ideajoin4.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay5{
+	background: url(../images/broken/ideajoin5.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+.sixdayItemImgDay6{
+	background: url(../images/broken/ideajoin6.png) 0 0 no-repeat;
+	height: 72px;
+	width: 72px;	
+	margin:auto;
+}
+
+
+/*-----------孵化内容总表--------------*/
+.fuhuaDayOuterCon{
+	padding:2% 0;
+}
+
+
+.fuhuaDayCon{
+	margin:auto;
+	text-align: center;
+}
+
+.fuhuaDayTitleCon{
+	margin:1% auto;
+	text-align: center;
+	color:#20186c;
+	font-size:40px;
+	line-height: 40px;
+	border-bottom: 2px solid #c9c9c9;
+	width: 300px;
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+
+
+.fuhuaDayListItemCOn{
+	margin-top:4%;
+}
+
+.fuhauDayListItem{
+	display: inline-block;
+	width: 187px;
+	height: 182px;
+}
+
+.mrspace{
+margin-right: 0.1rem;
+}
+
+.fhdli1{
+	background:url(../images/fuhua/dayb1.png) center center no-repeat;	 
+}
+
+
+.fhdli2{
+	background:url(../images/fuhua/dayb2.png) center center no-repeat;
+}
+
+.fhdli3{
+	background:url(../images/fuhua/dayb3.png) center center no-repeat;	
+}
+
+.fhdli4{
+	background:url(../images/fuhua/dayb4.png) center center no-repeat;
+}
+
+.fhdli5{
+	background:url(../images/fuhua/dayb5.png) center center no-repeat;
+}
+
+.fhdli6{
+	background:url(../images/fuhua/dayb6.png) center center no-repeat;
+}
+
+.fhdli1hover,.fhdli1:hover{
+	background:url(../images/fuhua/daya1.png) center center no-repeat;
+
+}
+
+.fhdli2hover,.fhdli2:hover{
+	background:url(../images/fuhua/daya2.png) center center no-repeat;
+
+}
+
+.fhdli4hover,.fhdli4:hover{
+	background:url(../images/fuhua/daya4.png) center center no-repeat;
+
+}
+
+.fhdli5hover,.fhdli5:hover{
+	background:url(../images/fuhua/daya5.png) center center no-repeat;
+
+}
+
+.fhdli6hover,.fhdli6:hover{
+	background:url(../images/fuhua/daya6.png) center center no-repeat;
+
+}
+
+.fhdli3hover,.fhdli3:hover{
+	background:url(../images/fuhua/daya3.png) center center no-repeat;
+
+}
+
+
+.fuhuaDayContentCon{
+	margin-top:4%;
+	height: 350px;
+}
+
+.hidden{
+	display: none;
+}
+
+/*-----可以得到什么 Gap----*/
+.cangetGapOuterCon{
+	background:url(../images/fuhua/cangetGapBack.png) 0 0 no-repeat;
+	height: 196px;
+}
+
+.cangetGapCon{
+	margin:auto;
+	text-align: center;
+}
+
+
+.canGetGapImgCon{
+	padding-top:4%;
+}
+
+/*-------------实战派-------------------*/
+.coachGroupCon{
+	margin:auto;
+}
+
+.coachShowCon{
+	margin:3% auto;
+	padding-top:3%;
+}
+
+.coachShowItem{
+	width: 1003px;
+	height: 486px;
+	position: relative;
+	margin:auto;
+}
+
+.coachIntroCon{
+	position: absolute;
+	top:48px;
+	right: 27px;
+	width: 500px;
+
+}
+
+.coachnameText{
+	font-size: 40px;
+	line-height: 40px;
+	color:#ff4959;
+	font-weight: bold;
+}
+
+.coachGapLine{	
+	font-size: 40px;
+	line-height: 40px;
+	color:#ff4959;
+	font-weight: bold;
+}
+
+.coachNameThere{
+	color:#575353;
+	font-size:25px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.coachItemIntroCon{
+	font-size:18px;
+	line-height: 22px;
+	margin-top:30px;
+	height: 220px;
+}
+.coachItemIntroCon p{
+	margin-top: 12px;
+	padding-right: 16px;
+}
+
+.coachBtnCon{
+	margin-top:33px;
+	text-align:right;
+}
+
+.coachBtnImg{
+	margin-right: 90px;
+}
+
+.csi1{
+	background: url(../images/fuhua/coachB1.png) 0 0 no-repeat;
+}
+
+.csi2{
+	background: url(../images/fuhua/coachB2.png) 0 0 no-repeat;
+}
+
+
+.csi3{
+	background: url(../images/fuhua/coachB3.png) 0 0 no-repeat;
+}
+
+
+.csi4{
+	background: url(../images/fuhua/coachB4.png) 0 0 no-repeat;
+}
+
+
+.coachLittleCon{
+	margin:5% auto;
+	text-align:center;
+
+}
+
+.coachlittleItem{
+	display:inline-block;
+
+}
+
+.chlimore{
+	margin-right: 80px;
+}
+
+
+/*-------------------可以得到什么 -----------*/
+.cangetFourOUterCon{
+	background-color: #ebebeb;
+}
+
+.cangetFourCon{
+	margin:auto;
+	text-align: center;
+	padding: 3% 0;
+}
+
+.cangetFourItem{
+	display: inline-block;
+	width: 242px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.cangetFourItemTitleCon{
+	height: 226px;
+	color:#fff;
+	font-size:120px;
+	line-height: 226px;
+	font-weight: bold;
+}
+
+.cangetFourItemContentCon{
+	margin:auto;
+	text-align:left;
+	background-color: #fff;
+}
+
+.cangetFourItemUl{
+	width: 70%;
+	margin:auto;	
+	color:#ff4959;
+	padding:10px 0;
+	height: 220px;
+}
+
+.cangetFourItemLi{
+	font-size:18px;
+	line-height: 18px;
+	margin-top:10px;
+}
+
+.cangetItemText{
+	color:#535050;
+}
+
+
+.cgfit1{
+	background: url(../images/fuhua/cangetitem1.png) 0 0 no-repeat;
+}
+
+.cgfit2{
+	background: url(../images/fuhua/cangetitem2.png) 0 0 no-repeat;
+}
+
+.cgfit3{
+	background: url(../images/fuhua/cangetitem3.png) 0 0 no-repeat;
+}
+
+.cgfit4{
+	background: url(../images/fuhua/cangetitem4.png) 0 0 no-repeat;
+}
+
+
+/*-----------报名须知-------*/
+.mustknowCon{
+	margin:3% auto;
+	max-width: 900px;
+	width:100%;
+	padding:2% 0;
+}
+
+.mustknowItemCon{
+	margin-top:4%;
+}
+
+.mustknowTitleImg{
+	display: block;
+	margin: auto;
+	max-width: 400px;
+	width: 60%;
+}
+.mustknowQAndAImg{
+	display: block;
+	margin:auto;
+	margin-top:3%;
+	max-width: 300px;
+}
+
+.mustkonwItem{
+	text-align: left;
+}
+
+.mustknowItemTitleCon{
+	margin:1rem 0;
+	text-align: center;
+}
+
+.mustknowItemTitle{
+	font-size: 24px;
+	line-height: 26px;
+	background-color:#d2d2d2;	
+	border-radius: 2rem;
+	padding:0.5rem;
+	color:#18315e;
+	font-weight: bold;
+}
+
+.mustknowCon{
+
+	width:90%;	
+	max-width: 1000px;
+}
+
+.mustknowItemContent{
+	color:#3351a4;
+	font-weight: 400;
+	font-size:20px;
+	line-height: 26px;
+	margin:4% auto;
+	text-align: center;
+}
+
+
+
+/*---------报名信息-------*/
+.reportOuterCon{
+	background:url(../images/fuhua/reportBack.png) no-repeat 0 0;
+}
+
+.reportCon{
+	margin:auto;
+	padding:3%;
+	padding-top:3%;
+	text-align: center;
+}
+
+
+.reportInnerCon{
+	background-color: #fff;
+	border:8px solid #394b6d;
+	border-radius: 5px;
+	padding:3%;
+	position: relative;
+	max-width: 800px;
+	margin:auto;
+}
+
+.reportTitleCon{
+	/*position: relative;*/
+}
+
+.reportTitle{
+	position: absolute;
+	top:-1.8rem;
+	left:0;
+	right: 0;
+	margin:auto;
+}
+
+.reportTitleImg{
+	max-width: 270px;
+}
+
+
+.reportContent{
+	margin-top:4%;
+	padding:0 3%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.reportLeftul
+{
+	color:#3351a4;
+	text-align: left;
+}
+
+.reportLeftLi{
+	margin-top:0.5rem;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.reportItemP{
+	color:#000;
+	font-weight: bold;
+}
+
+.reportItemInfo{
+	font-weight: bold;
+	font-size: 24px;
+	color:#18325f;
+}
+
+.reportGapLine{
+	font-weight: bold;
+	margin:1% 0;
+}
+
+.reportAddressItem{
+	color:#000;
+	font-weight: bold;
+	margin-top:0.3rem;
+}
+
+.reportAddressItemInfo{
+	color:#18325f;
+}
+
+.qcodeimg{
+	max-width: 177px;
+	width:100%;
+}
+
+.qcodeTextCon{
+	margin:2% auto;
+	color:#18315f;
+	text-align: left;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.qcodePhone{
+	font-weight: bold;
+}
+
+.qcodeContact{
+	text-align: center;
+}
+
+.qcodeContactImg{
+	width:80%;
+	max-width: 165px;
+	margin:auto;
+	margin-top: 4%;
+}
+
+/*--------案例-------*/
+
+.exampleOuterCon{
+	background:url(../images/fuhua/exampleBack.png) 0 0 no-repeat;
+	height: 690px;
+}
+
+.exampleCon{
+	margin:auto;
+	text-align: center;
+}
+
+.exampleTitleCon{
+	padding-top:7%;
+	color:#fff;
+	font-weight: bold;
+	color:#ff4959;
+	font-size:50px;
+	line-height: 50px;
+}
+
+.exampleVideoCon{
+	margin-top:8%;
+}
+
+.videoShowImgCon{
+	display: inline-block;
+	vertical-align: top;
+	width:460px;
+	height: 290px;
+}
+.videoIntro{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin-left: 30px;
+	color:#ff4959;
+	font-size:20px;
+	line-height: 24px;
+	width:500px;
+}
+
+.shopName{
+	color:#fff;
+	font-weight: bold;
+	border-bottom: 1px solid #4d4a6c;
+	padding-bottom: 10px;
+	font-size:20px;
+	line-height: 24px;
+}
+
+.subTitleCon{
+	margin-top:10px;
+	border-bottom: 1px solid #4d4a6c;
+	padding-bottom: 10px;
+}
+
+.subTitleSec{
+	margin-top:10px;
+	padding-bottom:20px;
+	border-bottom: 1px solid #4d4a6c;
+	height: 180px;
+}
+
+.videoShowImg
+{
+	max-width: 460px;
+	margin-right: 20px;
+}
+
+.titleSpecial{
+	color:#fff;
+}
+
+.subTitleThree{
+	margin-top:8px;
+	line-height: 28px;	
+}
+
+.subTitleThree{
+	color:#fff;
+}
+
+.videoBtnCon{
+	margin-top:6%;
+}
+
+.operaBtn{
+	background:url(../images/fuhua/operaBtn.png) 0 0 no-repeat;
+	width: 214px;
+	height: 41px;
+	display: inline-block;
+	text-align: center;
+	line-height: 41px;
+	color:#fff;
+	font-size:22px;
+}
+
+.preBtnA{
+margin-right: 5%;
+}
