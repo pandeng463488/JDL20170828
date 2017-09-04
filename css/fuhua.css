@@ -1,6 +1,8 @@
 .bannerCon{
 	background:url(../images/fuhua/banner.png) center top no-repeat;
 	height: 505px;
+	min-width: 1200px;
+	width: 100%;
 }
 
 
@@ -20,7 +22,10 @@
 
 .todayOuterCon{
 	background: url(../images/fuhua/musthaveBack.png) center top no-repeat;
+	
 	height: 312px;
+	min-width: 1200px;
+	width: 100%;
 }
 
 .todayCon{
@@ -102,6 +107,10 @@
 
 .fourItemIntroCon{
 	width: 320px;
+	font-weight: bold;
+	font-size:18px;
+	line-height: 26px;
+
 	margin:3% 8%;
 }
 
@@ -122,8 +131,6 @@
 .fit1 .fourItemIntroCon
 {
 	color:#1770a4;
-	font-size:18px;
-	line-height: 18px;
 }
 
 .fit2{
@@ -132,9 +139,7 @@
 
 .fit2 .fourItemIntroCon
 {
-	color:#1770a4;
-	font-size:18px;
-	line-height: 18px;
+	color:#c5870f;
 }
 
 .fit3{
@@ -144,9 +149,7 @@
 
 .fit3 .fourItemIntroCon
 {
-	color:#1770a4;
-	font-size:18px;
-	line-height: 18px;
+	color:#c21e1e;
 }
 
 .fit4{
@@ -155,9 +158,7 @@
 
 .fit4 .fourItemIntroCon
 {
-	color:#1770a4;
-	font-size:18px;
-	line-height: 18px;
+	color:#5247e3;
 }
 
 
@@ -172,8 +173,10 @@
 
 /*-------------面对问题-----------------*/
 .faceQuesOuterCon{
-	background: url(../images/fuhua/faceQuesBack.png)  0 0 no-repeat;
+	background: url(../images/fuhua/faceQuesBack.png)  center top no-repeat;
 	height: 463px;
+	width: 100%;
+	min-width: 1200px;
 }
 
 .faceQuesCon{
@@ -292,9 +295,13 @@
 }
 
 .sbContentItemTextCon{
-	display: flex;
     margin-top: 11px;
     margin-left: 50px;
+}
+
+.sbContentTextBefore{
+	display: inline-block;
+	vertical-align: top;
 }
 
 .sbTextBeforeImg{
@@ -304,6 +311,7 @@
 .sbContentText{
 	margin-left: 8px;
     width: 255px;
+	display: inline-block;
     text-align: left;
     font-size: 20px;
     line-height: 24px;
@@ -312,7 +320,7 @@
 
 .sbContentItemTextConSpecial{
 	width:300px;
-	display: flex;
+	text-align: center;
 	margin:auto;
 	padding-left:120px;
 	margin-top:8px;
@@ -396,188 +404,6 @@
 
 
 
-/*--------------- 6天6夜------------*/
-.sixdaynightOuter{
-	background-image:url(../images/broken/taskbackImg.png);
-	background-repeat: repeat;
-	width:100%;
-	padding: 2% 0;
-}
-
-.sixdaynightCon{	
-	padding:1% 0;
-	text-align: center;
-	margin:auto;
-}
-
-.sixdayItemGroupCon{
-	margin-top:3%;
-	display: flex;
-	width: 1150px;
-	margin:auto;
-	justify-content:center;
-}
-
-.sixdayItem{
-	background-color:#fff;
-	color:#777777;
-	width:170px;
-	height: 170px;
-	margin-right: 0.4rem;
-	border:1px solid #ccc;
-}
-
-.hidetraingleD{
-	width: 0;
-	height: 0;
-	border-top:8px solid #79ceff;
-	border-left: 8px solid transparent;
-	border-right:8px solid transparent;
-	display: none;
-}
-
-
-.sixdayItem:hover{
-	/*background-color:#feeb68;*/
-	transform:scale(1.1,1.1);
-	z-index: 10;
-	transition:all 0.4s ease;
-	/*color:#18315e;*/
-	cursor: pointer;
-}
-
-.sixdayItemhover{
-	background-color:#79ceff;
-	transform:scale(1.1,1.1);
-	z-index: 10;
-	transition:all 0.4s ease;
-	border:1px solid #79ceff;
-	color:#fff;
-}
-
-/*.sixdayItem:hover .hidetraingleD
-{
-	position: absolute;
-	bottom:-7px;
-	left:0;
-	right: 0;
-	margin:auto;
-	display: block;
-}*/
-
-/*.sixdayItem:hover .sixdayItemImgCon{
-	background-position: -72px 0;
-}*/
-
-.hidetraingleDhover{
-	position: absolute;
-	bottom:-7px;
-	left:0;
-	right: 0;
-	margin:auto;
-	display: block;
-}
-
-.sixdayItemTop{
-	margin-top:1rem;
-}
-
-.sixDayF{
-	margin-top:0.5rem;
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: bold;
-}
-
-.sixDayS{
-	font-size: 16px;
-	line-height: 16px;
-	margin-top:0.2rem;
-}
-
-.dayShowOuterCon{
-	position: relative;
-	width:1164px;
-	height: 400px;
-	text-align: center;
-	margin:auto;
-}
-
-.dayShowCon{
-	display: flex;
-	justify-content:center;
-	margin-top:2rem;
-	position: absolute;
-	top:30px;
-	left:0;
-	right: 0;
-	bottom: 0;
-	margin:auto;
-}
-
-.hidenDiv{
-	display: none;
-}
-
-.dayShowItem
-{
-	border:1px solid #79ceff;	
-	width:330px;
-	margin-right: 1rem;
-}
-
-.dayShowItemTitle{
-	background-color:#79ceff;
-	font-size: 24px;
-	line-height: 28px;
-	padding:0.2rem 0;
-}
-
-.sixdayItemImgDay1{
-	background: url(../images/broken/ideajoin1.png) 0 0 no-repeat;
-	height: 72px;
-	width: 72px;	
-	margin:auto;
-}
-
-.sixdayItemImgDay2{
-	background: url(../images/broken/ideajoin2.png) 0 0 no-repeat;
-	height: 72px;
-	width: 72px;	
-	margin:auto;
-}
-
-
-.sixdayItemImgDay3{
-	background: url(../images/broken/ideajoin3.png) 0 0 no-repeat;
-	height: 72px;
-	width: 72px;	
-	margin:auto;
-}
-
-
-.sixdayItemImgDay4{
-	background: url(../images/broken/ideajoin4.png) 0 0 no-repeat;
-	height: 72px;
-	width: 72px;	
-	margin:auto;
-}
-
-
-.sixdayItemImgDay5{
-	background: url(../images/broken/ideajoin5.png) 0 0 no-repeat;
-	height: 72px;
-	width: 72px;	
-	margin:auto;
-}
-
-
-.sixdayItemImgDay6{
-	background: url(../images/broken/ideajoin6.png) 0 0 no-repeat;
-	height: 72px;
-	width: 72px;	
-	margin:auto;
-}
 
 
 /*-----------孵化内容总表--------------*/
@@ -814,7 +640,8 @@ margin-right: 0.1rem;
 .cangetFourItem{
 	display: inline-block;
 	width: 242px;
-	margin-right: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 	vertical-align: top;
 }
 
@@ -837,13 +664,13 @@ margin-right: 0.1rem;
 	margin:auto;	
 	color:#ff4959;
 	padding:10px 0;
-	height: 220px;
+	height: 287px;
 }
 
 .cangetFourItemLi{
 	font-size:18px;
 	line-height: 18px;
-	margin-top:10px;
+	margin-top:19px;
 }
 
 .cangetItemText{
@@ -873,7 +700,6 @@ margin-right: 0.1rem;
 	margin:3% auto;
 	max-width: 900px;
 	width:100%;
-	padding:2% 0;
 }
 
 .mustknowItemCon{
@@ -943,12 +769,12 @@ margin-right: 0.1rem;
 
 
 .reportInnerCon{
-	background-color: #fff;
+	background-color: #f2f2f2;
 	border:8px solid #394b6d;
-	border-radius: 5px;
+	border-radius: 20px;
 	padding:3%;
 	position: relative;
-	max-width: 800px;
+	width: 900px;
 	margin:auto;
 }
 
@@ -965,15 +791,20 @@ margin-right: 0.1rem;
 }
 
 .reportTitleImg{
-	max-width: 270px;
 }
 
 
 .reportContent{
-	margin-top:4%;
+	margin-top:2%;
 	padding:0 3%;
-	display: flex;
+	text-align: center;
 	justify-content: space-between;
+}
+
+.reportLeft{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 120px;
 }
 
 .reportLeftul
@@ -1031,8 +862,13 @@ margin-right: 0.1rem;
 	font-weight: bold;
 }
 
+.qcodeCon{
+	display: inline-block;
+}
+
 .qcodeContact{
 	text-align: center;
+	display: inline-block;
 }
 
 .qcodeContactImg{

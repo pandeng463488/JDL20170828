@@ -4,7 +4,7 @@ html,body{
 }
 
 .bannerCon{
-	height: 505px;
+	height: 503px;
 	background:url(../images/sell/banner.png) top center no-repeat;
 }
 
@@ -16,9 +16,9 @@ html,body{
 }
 
 .bannerCon1{
-	background:url(../images/sell/banner1.png) 0 0 no-repeat;
+	background:url(../images/sell/banner1.png) top center no-repeat;
 	margin:auto;
-	height: 438px;
+	height: 439px;
 }
 
 .bannerC1Iner{
@@ -32,12 +32,10 @@ html,body{
 
 .bannerC1Title{
 	padding-top:3%;
-	max-width: 900px;
 }
 
 .bannerC1MapImg{
 	padding-top:3%;
-	max-width: 800px;
 }
 
 .imgCenterType{
@@ -51,12 +49,10 @@ html,body{
 
 .bannerC2Title{
 	padding-top:7%;
-	max-width: 900px;
 }
 
 .bannerC2MapImg{
-	padding-top:1%;
-	max-width: 900px;
+	padding-top:2%;
 }
 
 .bannerCon3{
@@ -65,13 +61,11 @@ html,body{
 }
 
 .bannerC3Title{
-	padding-top:8%;
-	max-width: 880px;
+	padding-top:12%;
 }
 
 .bannerC3p{
-	padding-top:1%;
-	max-width: 700px;
+	padding-top:3%;
 }
 
 .bannerCon4{
@@ -82,7 +76,7 @@ html,body{
 
 .bannerC4map{
 	max-width: 750px;
-	padding-top:3%;
+	padding-top:8%;
 }
 
 .bannerCon5{
@@ -114,7 +108,8 @@ html,body{
 
 .courseItem{
 	display: inline-block;
-	margin-right:3rem;
+	margin-right:2rem;
+	margin-left: 2rem;
 	background:url(../images/sell/selldayback.png) 0 0 no-repeat;
 	height: 182px;
 	width: 183px;
@@ -155,14 +150,15 @@ html,body{
 .surperCourseCon{
 	padding-top:2%;
 	margin:auto;	
-	width:1000px;
+	width:1012px;
 	padding-bottom: 3%;
 	height: 750px;
 }
 
 .surperCourseItem{
-	width: 242px;
-	margin-right: 5px;
+	width: 244px;
+	margin-right: 3px;
+	margin-left: 3px;
 	margin-top:15px;
 	text-align: center;
 	display: inline-block;
@@ -606,8 +602,6 @@ html,body{
 .viewContentCon{
 	margin-top:2%;
 	position: relative;    
-	display: flex;
-    justify-content: space-between;
 }
 
 .viewShowImgCon{
@@ -615,23 +609,23 @@ html,body{
     width: 450px;
     top: 0;
     left: 20px;
-    display: block;
+    display: inline-block;
     /* position: absolute; */
 }
 
 .viewShowImg{
 	position: absolute;
-	width: 420px;
-	top:80px;
-	left:20px;
-	right: 0;
-	bottom:0;
+    width: 501px;
+    top: 90px;
+    left: 91px;
+    right: 0;
+    bottom: 0;
 }
 
 .viewshowRightMenu{
-	display: block;
+	display: inline-block;
 	width: 470px;
-
+	margin-left:174px;
 }
 
 .viewshowMenumPart{
@@ -826,9 +820,7 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 
 .dakaTeacherLittleList{
 	padding-top:2%;
-	display: flex;
-	justify-content:space-between;
-	width: 450px;
+	width: 510px;
 	margin-left: 220px;
 }
 
@@ -843,6 +835,8 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 
 .dakateacherItem{
 	border:1px solid #fff;
+	display: inline-block;
+	margin:0 20px;
 }
 .dakateacherItem:hover{
 	border:1px solid #0562fd;
@@ -864,8 +858,6 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 }
 
 .coachItemCon{
-	display: flex;
-    justify-content: center;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -875,7 +867,8 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 .coachItem{
 	width:200px;
 	border:1px solid #8f9399;
-	margin-right: 1rem;	
+	margin:0 0.2rem;
+	display: inline-block;
 }
 
 .coachItemIntroCon{
@@ -910,6 +903,7 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 .reportBtn{
 	max-width: 200px;	
 	width: 25%;
+	padding-top:2%;
 }
 
 /*---------- 3 + 3 全免学习计划--------*/
@@ -967,11 +961,10 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 .reportInnerCon{
 	margin:auto;
 	padding:3% 0;
-	padding-top:5%;
 	background-color:#f2f2f2;
-	border:2px solid #5b4f70;
-	width: 900px;
-	border-radius: 10px;
+	border:8px solid #5b4f70;
+	width: 960px;
+	border-radius: 20px;
 	position: relative;
 }
 
@@ -987,13 +980,12 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 }
 
 .reportTitleImg{
-	max-width: 300px;
 }
 
 .reportTitle{
 	color:#fff;
-	font-size: 40px;
-	line-height: 43px;
+	font-size: 50px;
+	line-height: 56px;
 	position: absolute;
 	top:8px;
 	left:0;
@@ -1003,10 +995,21 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 }
 
 .reportContentCon{	
-	margin:3% 4%;
+	margin-top:1%;
+	margin-bottom: 3%;
 	color:#12067c;
-	display: flex;
-	justify-content:space-around;	
+	text-align: center;
+}
+
+.reportContentLeftCon{
+	display: inline-block;
+	text-align: left;
+	margin-right: 126px;
+}
+
+.reportQCodeCon{
+	display: inline-block;
+
 }
 
 .reportContentLi{

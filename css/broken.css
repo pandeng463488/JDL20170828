@@ -4,19 +4,27 @@
 .bannerCon{
 	background:url(../images/broken/bannerBack.png) no-repeat top center;
 	text-align: center;
+	height: 505px;
 }
 
 .bannerImg{
-	margin:5% auto;
-	max-width: 680px;
-	width:60%;
+	margin:auto;
+	margin-top:4%;
 }
 
 .wordCon{
-	background-color:#18315e;
+	background:url(../images/broken/tudi1.png) no-repeat top center;
 	text-align: center;
 	position: relative;
-	padding:1rem 0;
+	height: 667px;
+	margin-top:-1px;
+}
+
+.wordSecondCon{
+	background:url(../images/broken/tudi2.png) no-repeat top center;
+	text-align: center;
+	position: relative;
+	height: 834px;
 }
 
 .ShoperCon{
@@ -24,45 +32,37 @@
 }
 
 .ruguoImg{
-	margin:1% auto;	
-	max-width: 500px;
-	width: 60%;
+	margin:2% auto;	
 }
 
 .tianmaoImg{
-	margin-top:3% auto;
-	max-width: 600px;
-	width:60%;
+	margin-top:1%;
 }
 
 .TianmaoCon{
 	text-align: center;
 	margin:1% auto;
-	width:90%;
+	width: 555px;
 }
 
 .TianmaoItemCon{
 	margin:auto;
 	margin-top:1rem;
-	max-width: 550px;
-	width:45%;
 }	
 
 .TianmaoItem{
 	border:1px solid #feeb68;
 	font-size: 34px;
-	display: inline-block;
-	line-height: 1.8rem;
-	color:#feeb68;
-	margin:auto;
+	line-height: 34px;
+	color:#feeb68;	
 	padding:0.5rem;
-	margin-right: 0.5rem;
+	margin:0 5px;
+	float:left;
 }
 
 .anniu1Img{
 	margin:1rem auto;
-	max-width: 400px;
-	width:60%;
+	clear:both;
 }
 
 .quesIconImg{
@@ -80,8 +80,6 @@
 
 .kulianImg{
 	z-index: 0;	
-	max-width: 150px;
-	width:40%;
 	position: absolute;
 	top:-45%;
 	left:0;
@@ -91,24 +89,20 @@
 }
 
 .liutianImg{
-	margin:0.5rem auto;
-	max-width: 450px;
-	width: 60%;
+	margin:auto;
+	padding-top:2%;
+	clear: both;
 	display: block;
 }
 
 .youshiImg{
-
 	margin:1.2rem auto;
-	max-width: 500px;
-	width: 60%;
 	display: block;
+	margin-top:2rem;
 }
 
 .anniu2Img{
 	margin:1em auto;
-	max-width: 200px;
-	width: 60%;
 	display: block;
 }
 
@@ -116,6 +110,7 @@
 .brokenGapCon{
 	background:url(../images/broken/brokenGap1.png) no-repeat center top;
 	height: 232px;
+	margin-top:-1px;
 }
 
 .brokenGapTextCon{	
@@ -123,8 +118,9 @@
 	padding-top:3rem;
 	text-align: center;
 	font-size: 50px;
-	line-height: 3rem;	
+	line-height: 54px;	
 }
+
 
 .brokenGapTextF
 {
@@ -143,6 +139,7 @@
 	color:#fff;
 	font-weight: 900;	
 	font-size: 40px;
+	display: block;
 }
 
 .brokenGapTextS:after{
@@ -168,12 +165,18 @@
 	padding: 2% 0;
 }
 
+.taskDivInnerCon{
+	margin:auto;
+	/*text-align: center;*/
+	position: relative;
+}
+
+
 .taskUl{
 	list-style: none;
 	position: relative;
 	margin:auto;
-	max-width:1000px;	
-	width:90%;
+	width: 1000px;
 }
 
 .taskUl:before{
@@ -203,23 +206,22 @@
 	font-weight: bold;
 	letter-spacing: 0.4rem;
 	vertical-align: top;
-	writing-mode: tb-rl;
 }
 
 .taskItemContentCon{
 	margin-bottom: 20px;
 	display: inline-block;	
 	margin-left:2%;
-	max-width: 880px;
-	width:85%;
+	width: 900px;
 }
 
 .taskItemContentT{
 	color:#feeb68;
-	font-size: 1.6rem;
-	line-height: 1.8rem;
+	font-size: 28px;
+	line-height: 30px;
 	font-weight: bold;
-	padding:1%;
+	text-align: left;
+	padding:1% 0;
 	margin:0.8rem 0;
 
 }
@@ -227,16 +229,17 @@
 .taskItemImgCon{
 	display: block;
 	width: 100%;
+	text-align: center;
 }
 
 .taskMoreT{
 	margin-top:4%;
+	text-align:center;
 }
 
 .taskItemimg{
-	max-width: 680px;
-	width:80%;
-	display: block;
+	display: block;	
+	margin:auto;
 	margin-top:0.8rem;
 }
 
@@ -264,6 +267,8 @@
 .shopGapTextS{
 	color:#feeb68;
 	font-weight: 900;
+	padding-top:10px;
+	display: block;
 }
 
 .shopGapTextS:after{
@@ -387,10 +392,9 @@
 
 .sixdayItemGroupCon{
 	margin-top:3%;
-	display: flex;
 	width: 1150px;
+	text-align: center;
 	margin:auto;
-	justify-content:center;
 }
 
 .sixdayItem{
@@ -398,8 +402,11 @@
 	color:#777777;
 	width:170px;
 	height: 170px;
-	margin-right: 0.4rem;
+	margin-right: 0.2rem;
+	margin-left:0.2rem;
 	border:1px solid #ccc;
+	display: inline-block;
+
 }
 
 .hidetraingleD{
@@ -479,8 +486,7 @@
 }
 
 .dayShowCon{
-	display: flex;
-	justify-content:center;
+	text-align: center;
 	margin-top:2rem;
 	position: absolute;
 	top:30px;
@@ -496,9 +502,11 @@
 
 .dayShowItem
 {
+	display: inline-block;
 	border:1px solid #feeb68;	
 	width:330px;
-	margin-right: 1rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .dayShowItemTitle{
@@ -596,13 +604,14 @@
 }
 
 .teacherItemGroup{	
-	display: flex;
+	text-align:center;
 }
 
 .teacherItem{
-	display: flex;
+	display: inline-block;
+	vertical-align: top;
 	margin-top:2rem;
-	margin-right: 1rem;
+	margin:2rem 0.5rem 2rem 0.5rem;
 }
 
 .teacherItem:hover .teacherItemTextCon{	
@@ -612,6 +621,7 @@
 .teacherItem:hover{
 	transform:translate(0,-20px);
 	transition:all 0.4s ease;
+	cursor: pointer;
 }
 
 .teacherItemImg{
@@ -621,10 +631,13 @@
 
 .teacherItemImgCon{
 	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
 }
 
 .teacherItemTextCon{
 	display: inline-block;
+	vertical-align: top;
 	width: 175px;
 	height: 296px;
 	background-color:#0f254c;
@@ -672,6 +685,7 @@
 	font-size: 40px;
 	line-height: 40px;
 	position: absolute;
+	font-weight: bold;
 	top:0%;
 	left:0;
 	right: 0;
@@ -681,8 +695,7 @@
 
 .teacherCoachList{
 	margin-top:5%;
-	display: flex;
-	justify-content:center;
+	text-align: center;
 }
 
 /*.teacherCoachItemImgCon{
@@ -706,7 +719,9 @@
 }
 */
 .teacherCoachItem{
-	margin-right: 2rem;
+	margin:0 1rem;
+	display: inline-block;
+	vertical-align: top;	
 }
 
 .teacherCoachItem:hover .teacherCoachItemImg{
@@ -739,13 +754,20 @@
 
 .guideCon{
 	margin-top:4%; 
-	display: flex;
+	text-align: center;
 }
 
 .guideTextCon{
 	color:#feeb68;
 	margin:auto;
+	display: inline-block;
 	text-align: left;
+	vertical-align: middle;
+}
+
+.guideImgCon{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .guideTextUl{
@@ -755,7 +777,7 @@
 .guideTextLi{
 	font-size: 22px;
 	line-height: 26px;
-	margin-top: 14px;
+	margin-top: 30px;
 }
 
 .guideSpecial{
@@ -831,7 +853,7 @@
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 30px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #5c6b87;
 	padding-bottom: 0.5rem;
 }
 
@@ -845,13 +867,13 @@
 
 .typeName{
 	margin:2% 0;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #5c6b87;
 	padding-bottom: 0.5rem;
 }
 
 .learBeforeCon{	
 	margin:2% 0;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #5c6b87;
 	padding-bottom: 0.5rem;
 }
 
@@ -860,7 +882,7 @@
 }
 
 .learBeforeContext{
-	
+	padding-bottom: 12px;	
 }
 
 .videoBtnCon{
@@ -952,12 +974,12 @@
 
 
 .reportInnerCon{
-	background-color: #fff;
-	border:2px solid #394b6d;
-	border-radius: 5px;
+	background-color: #f2f2f2;
+	border:8px solid #394b6d;
+	border-radius: 20px;
 	padding:3%;
 	position: relative;
-	max-width: 800px;
+	max-width: 900px;
 	margin:auto;
 }
 
@@ -974,15 +996,19 @@
 }
 
 .reportTitleImg{
-	max-width: 270px;
 }
 
 
 .reportContent{
-	margin-top:4%;
+	margin-top:2%;
 	padding:0 3%;
-	display: flex;
+	text-align: center;
 	justify-content: space-between;
+}
+
+.reportLeft{
+	display: inline-block;	
+	margin-right: 120px;
 }
 
 .reportLeftul
@@ -1038,6 +1064,11 @@
 
 .qcodePhone{
 	font-weight: bold;
+}
+
+.qcodeCon
+{
+	display: inline-block;
 }
 
 .qcodeContact{
