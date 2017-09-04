@@ -23,9 +23,6 @@ div,p,span,img{}
 /*头部*/
 .LogoT{
 	margin:auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	padding:0.8rem 0 !important;
 }
 
@@ -38,7 +35,7 @@ div,p,span,img{}
 
 /*左侧Logo*/
 .LogoLeft{
-	float:left;
+	display: inline-block;
 	margin-left:5%;
 }
 
@@ -76,8 +73,8 @@ div,p,span,img{}
 }
 
 .TopPhoneRight{
-	float:right;
-	margin-right: 5%;
+	display: inline-block;
+	margin-left: 36%;
 }
 
 .TopPhoneD{	
@@ -110,7 +107,6 @@ div,p,span,img{}
 	margin:auto;
 	text-align: center;
 	list-style: none;
-	justify-content: space-between;
 }
 
 .nvavTopUl li{
