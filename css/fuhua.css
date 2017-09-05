@@ -1,4 +1,4 @@
-.bannerCon{
+﻿.bannerCon{
 	background:url(../images/fuhua/banner.png) center top no-repeat;
 	height: 505px;
 	min-width: 1200px;
@@ -881,7 +881,7 @@ margin-right: 0.1rem;
 /*--------案例-------*/
 
 .exampleOuterCon{
-	background:url(../images/fuhua/exampleBack.png) 0 0 no-repeat;
+	background:url(../images/fuhua/exampleBack.png) center top no-repeat;
 	height: 690px;
 }
 
