@@ -26,7 +26,7 @@ $(function(){
 	});
 
 	/*切换超级课程*/
-	$('div.courseItem').click(function(){
+	$('div.courseItem').hover(function(){
 		var index = $(this).index();
 		$(this).addClass('courseItemhover').siblings().removeClass('courseItemhover');
 		$("div.surperCourseCon:eq("+index+")").removeClass('hidden').siblings().addClass('hidden');

@@ -256,17 +256,16 @@ html,body{
 	font-weight: bold;
 }
 
-.foregoerABtn:hover{
-	color:#fff;
+/*.foregoerABtn:hover{
 	background-color:#e66b46;
-}
+}*/
 
-.foregoerABtn1:hover{
-	background:url(../images/our/foregoerABtn1.png) 0 0 no-repeat;
+/*.foregoerABtn1:hover{
+	background:url(../images/our/foregoerABtn2.png) 0 0 no-repeat;
 }
 
 .foregoerABtn2:hover{
-	background:url(../images/our/foregoerABtn2.png) 0 0 no-repeat;
+	background:url(../images/our/foregoerABtn1.png) 0 0 no-repeat;
 }
 
 .foregoerABtn3:hover{
@@ -279,6 +278,31 @@ html,body{
 
 .foregoerABtn5:hover{
 	background:url(../images/our/foregoerABtn5.png) 0 0 no-repeat;	
+}
+*/
+.foregoerABtn1hover{
+	background:url(../images/our/foregoerABtn2.png) 0 0 no-repeat;
+	color:#fff;
+}
+
+.foregoerABtn2hover{
+	background:url(../images/our/foregoerABtn1.png) 0 0 no-repeat;	
+	color:#fff;
+}
+
+.foregoerABtn3hover{
+	background:url(../images/our/foregoerABtn3.png) 0 0 no-repeat;
+	color:#fff;		
+}
+
+.foregoerABtn4hover{
+	background:url(../images/our/foregoerABtn4.png) 0 0 no-repeat;	
+	color:#fff;
+}
+
+.foregoerABtn5hover{
+	background:url(../images/our/foregoerABtn5.png) 0 0 no-repeat;	
+	color:#fff;
 }
 
 .forgoerHoverDiv,.foregoerItemContentmidCon{
@@ -749,9 +773,14 @@ html,body{
 	font-size:20px;
 	line-height: 24px;
 	height: 110px;
+	width: 70%;
+	text-align: center;
 }
 
 .judgeFourUl li{
+	width:164px;
+	text-align: center;
+	margin:auto;
 	margin-top:0.2rem;
 }
 
@@ -775,7 +804,7 @@ html,body{
 }
 
 .judgeBtnCon{
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -783,12 +812,12 @@ html,body{
 	display: block;
     padding: 1rem 1rem;
     border-radius: 0.6rem;
-    margin-left: 0.5rem;
     color: #fff;
     width: 40%;
     text-align: center;
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin:auto;
+    margin-bottom: 1rem;    
 }
 
 .jful2 li{
@@ -964,13 +993,14 @@ html,body{
 
 .reportTitleCon{
 	position: absolute;
-	top:-15%;
+	top:-94%;
 	left:0;
 	right: 0;
 	bottom: 0;
 	width: 77%;
 	text-align: center;
 	margin:auto;
+	height: 160px;
 }
 
 .reportTitleBackImg{

@@ -22,6 +22,7 @@
 		$("div.dayShowCon:eq("+index+")").removeClass('hidenDiv').siblings().addClass('hidenDiv');
 		$("div.hidetraingleD:eq("+index+")").addClass('hidetraingleDhover');
 	},function(){		
+
 	});
 
 	// $("div.sixdayItem").click(function(){
@@ -68,6 +69,12 @@
 
 	});
 
+	$("div.teacherCoachItem").hover(function(){
+		$(this).siblings().find('div.teacherCoachItemImgShadow').stop().fadeIn(200);	
+	},function(){
+		$('div.teacherCoachItemImgShadow').stop().fadeOut(200);
+	});
+
 
 	var videoEleIndex = 0;
 
@@ -108,6 +115,5 @@
 			afterText:'学后两个月达到20多万，店铺做到第五层级；电商运营体系化，店铺操作思路更加清晰，解决问题能力逐步提升。',
 			videoHTML:'<embed   play="false"  flashvars="autoplay=false&play=false" src="http://cloud.video.taobao.com/play/u/1016142758/e/1/t/1/p/1/50004088646.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="never" allowFullScreen="true" type="application/x-shockwave-flash"></embed>'
 		}
-
 	];
 });

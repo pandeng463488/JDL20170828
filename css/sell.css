@@ -234,6 +234,8 @@ html,body{
 		position: relative;
 		background-color: #c9d7ed;
 		height: 200px;
+		width: 1006px;
+		margin:auto;
 	}	
 	
 	.gainplanVericialTimeLineCon:before{
@@ -254,7 +256,7 @@ html,body{
 		list-style: none;	
 		position: absolute;
 		top:30px;
-		left:0;	
+		left:56px;	
 		bottom:0;
 		right:0;
 		text-align: center;
@@ -431,7 +433,7 @@ html,body{
 	list-style: none;
 	position: absolute;
 	margin-top:40px;
-	margin-left: 40px;
+	margin-left: 156px;
 	padding-bottom: 30px;	
 }
 
@@ -971,12 +973,13 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 
 .reportTitleCon{
 	position: absolute;
-	top:-30px;
+	top:-98%;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	margin:auto;
 	text-align: center;
+	height: 90px;
 }
 
 .reportTitleImg{
@@ -1084,4 +1087,96 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 	font-size: 20px;
 	line-height: 26px;
 	margin:0.2rem 0;
+}
+
+.coachNewItemCon{
+	margin:auto;
+	text-align: center;
+	margin-top:4%;
+}
+
+.coachNewItem{
+	width:200px;
+	margin:0 0.4rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.coachTeacherHeadImgCon{	
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.coiachTeacherHeadImg{
+	border:1px solid #8f9399;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.coachTeacherHeadShadow{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	width: 100%;
+	height: 100%;
+	background-color: #8f9399;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.coachNewItemIntroCon{
+	border:1px solid #8f9399;
+	padding: 5%;
+	font-size: 16px;
+	line-height: 20px;
+	color:#8f9399;
+	height: 220px;
+	text-align: left;
+	overflow: hidden;
+	margin-top:-20px;
+	padding-top:30px;
+}
+
+.coachNewItemName{
+	background-color: #8f9399;
+	padding:1.4rem 0;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 27px;
+	color:#fff;
+}
+
+.coachNewItem:hover
+{	
+	cursor: pointer;
+}
+
+.coachNewItem:hover .coachNewItemName{
+	background-color: #0562fd;
+}
+
+.coachNewItem:hover .coachNewItemIntroCon{
+	border:1px solid #0562fd;
+	color:#0e1445;
+}
+
+.coachNewItem:hover .coachTeacherHeadShadow{
+	display: none;
+}
+
+.coachNewItem:hover .coiachTeacherHeadImg{
+	border:1px solid #0562fd;
 }
