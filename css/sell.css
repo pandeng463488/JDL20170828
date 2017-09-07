@@ -18,7 +18,7 @@ html,body{
 .bannerCon1{
 	background:url(../images/sell/banner1.png) top center no-repeat;
 	margin:auto;
-	height: 407px;
+	height: 494px;
 }
 
 .bannerC1Iner{
@@ -44,7 +44,7 @@ html,body{
 
 .bannerCon2{
 	background:url(../images/sell/banner2.png) 0 0 no-repeat;
-	height: 480px;
+	height: 398px;
 }
 
 .bannerC2Title{
@@ -1135,35 +1135,42 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	display: none;
 }
 
 .coachNewItemIntroCon{
-	border:1px solid #8f9399;
+	/*border:1px solid #8f9399;*/
 	padding: 5%;
 	font-size: 16px;
 	line-height: 20px;
-	color:#8f9399;
+	/*color:#8f9399;*/	
 	height: 220px;
 	text-align: left;
 	overflow: hidden;
 	margin-top:-20px;
 	padding-top:30px;
+
+	border:1px solid #0562fd;
+	color:#0e1445;
+
 }
 
 .coachNewItemName{
-	background-color: #8f9399;
+	/*background-color: #8f9399;*/
 	padding:1.4rem 0;
 	font-size: 25px;
 	font-weight: bold;
 	line-height: 27px;
 	color:#fff;
+
+		background-color: #0562fd;
 }
 
 .coachNewItem:hover
 {	
 	cursor: pointer;
 }
-
+/*
 .coachNewItem:hover .coachNewItemName{
 	background-color: #0562fd;
 }
@@ -1179,4 +1186,4 @@ background:url(../images/sell/viewcontent24.png) 0 0 no-repeat;
 
 .coachNewItem:hover .coiachTeacherHeadImg{
 	border:1px solid #0562fd;
-}
+}*/

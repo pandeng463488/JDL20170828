@@ -31,4 +31,24 @@ $(function(){
 		$(this).addClass('courseItemhover').siblings().removeClass('courseItemhover');
 		$("div.surperCourseCon:eq("+index+")").removeClass('hidden').siblings().addClass('hidden');
 	});
+
+
+	//coach
+	$("div.coachNewItem").hover(function(){
+
+		var index = $(this).index();
+
+		$(this).siblings().find('.coachTeacherHeadShadow').stop().fadeIn();
+		$(this).siblings().find('.coiachTeacherHeadImg').css('border','1px solid #8f9399');		
+		$(this).siblings().find('.coachNewItemIntroCon').css({'border':'1px solid #8f9399','color':'#8f9399'});
+		$(this).siblings().find('.coachNewItemName').css('background-color','#8f9399');		
+
+
+	},function(){
+
+		$(this).siblings().find('.coachTeacherHeadShadow').stop().fadeOut();
+		$(this).siblings().find('.coiachTeacherHeadImg').css('border','1px solid #0562fd');
+		$(this).siblings().find('.coachNewItemIntroCon').css({'border':'1px solid #0562fd','color':'#0e1445'});
+		$(this).siblings().find('.coachNewItemName').css('background-color','#0562fd');		
+	});
 });
