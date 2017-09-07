@@ -16,7 +16,7 @@
 	background:url(../images/broken/tudi1.png) no-repeat top center;
 	text-align: center;
 	position: relative;
-	height: 667px;
+	height: 630px;
 	margin-top:-1px;
 }
 
@@ -216,7 +216,7 @@
 
 .taskItemContentT{
 	color:#feeb68;
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 34px;
 	font-weight: bold;
 	text-align: left;

@@ -58,6 +58,12 @@
 	/*视频播放*/
 	var initConfig = [
 		{
+			shopName:'又壹点企业店',
+			shopType:'厨房/餐饮用具',
+			afterText:'让我们看清了整个行业，通过数据分析，能够把店铺问题完完全全的呈现。',
+			videoHTML:'<embed play="false"  flashvars="autoplay=false&play=false" src="http://cloud.video.taobao.com/play/u/1016142758/e/1/t/1/p/1/34145542.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="never" allowFullScreen="true" type="application/x-shockwave-flash"></embed>'
+		},
+		{
 			shopName:'三木贝贝亲子装店',
 			shopType:'服装',
 			afterText:'听完课程之后意识到自己团队存在的问题，增加与同事的沟通。同时，对于品牌的定位、产品规划也更加的明确。',
@@ -69,12 +75,7 @@
 			afterText:'听了课对整个行业，对竞争对手、市场环境有了一个全面的了解。作为一个电商人，只有不断学习才能顺应发展',
 			videoHTML:'<embed play="false"  flashvars="autoplay=false&play=false" src="http://cloud.video.taobao.com/play/u/1016142758/e/1/t/1/p/1/61410539.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="never" allowFullScreen="true" type="application/x-shockwave-flash"></embed>'
 		},
-		{
-			shopName:'又壹点企业店',
-			shopType:'厨房/餐饮用具',
-			afterText:'让我们看清了整个行业，通过数据分析，能够把店铺问题完完全全的呈现。',
-			videoHTML:'<embed play="false"  flashvars="autoplay=false&play=false" src="http://cloud.video.taobao.com/play/u/1016142758/e/1/t/1/p/1/34145542.swf" quality="high" width="100%" height="100%" align="middle" allowScriptAccess="never" allowFullScreen="true" type="application/x-shockwave-flash"></embed>'
-		},
+		
 		{
 			shopName:'陶趣居（极有家店铺）',
 			shopType:'餐饮用具',
