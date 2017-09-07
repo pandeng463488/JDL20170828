@@ -76,24 +76,24 @@
 	}
 
 	//五项
-	$("div.foregoerItemCon").hover(function(){
-			var index = $(this).index();
-			var eleArray = $("div.foregoerItemCon");
+	// $("div.foregoerItemCon").hover(function(){
+	// 		var index = $(this).index();
+	// 		var eleArray = $("div.foregoerItemCon");
 
-			$('a.foregoerABtn').each(function(){
-				for( var i=1; i<=5; i++)
-				{
-					$(this).removeClass('foregoerABtn'+(i)+'hover');
-				}
-			});
-			$(this).find('a.foregoerABtn').addClass('foregoerABtn'+(index+1)+'hover');
+	// 		$('a.foregoerABtn').each(function(){
+	// 			for( var i=1; i<=5; i++)
+	// 			{
+	// 				$(this).removeClass('foregoerABtn'+(i)+'hover');
+	// 			}
+	// 		});
+	// 		$(this).find('a.foregoerABtn').addClass('foregoerABtn'+(index+1)+'hover');
 
-	},function(){
+	// },function(){
 
-		// var eleArray = $("div.foregoerItemCon");
-		// for( var i=0; i<eleArray.length; i++)
-		// {
-		// 	$(eleArray[i]).find('a.foregoerABtn').addClass('foregoerABtn'+(i+1)+'hover');
-		// }
-	});
+	// 	// var eleArray = $("div.foregoerItemCon");
+	// 	// for( var i=0; i<eleArray.length; i++)
+	// 	// {
+	// 	// 	$(eleArray[i]).find('a.foregoerABtn').addClass('foregoerABtn'+(i+1)+'hover');
+	// 	// }
+	// });
 });

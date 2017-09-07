@@ -587,11 +587,16 @@ html,body{
 
 .CoachItem{
 	display: inline-block;
+	overflow: hidden;
+	margin-right: 2.5rem;
+	position: relative;
+}
+
+.coachItemHeadImgCon{
+
 	border-radius: 50%;
 	width:188px;
 	height: 188px;
-	overflow: hidden;
-	margin-right: 2.5rem;
 	position: relative;
 }
 
@@ -614,8 +619,9 @@ html,body{
 	right: 0;
 	bottom: 0;
 	margin:auto;
-	width:100%;
-	height: 100%;
+	border-radius: 50%;
+	width:188px;
+	height: 188px;
 	z-index: 20;
 }
 
@@ -624,8 +630,10 @@ html,body{
 }
 
 .CoachName{
-	font-size:28px;
-	line-height: 30px;
+	font-size: 28px;
+    line-height: 40px;
+    color: #db4e1d;
+    margin-top: 8px;
 }
 
 .CoachPosition{
@@ -766,20 +774,21 @@ html,body{
 }
 
 .judgeFourUl{
-	margin-top:12%;
-	margin-left:14%;
-	margin-bottom: 8%;
 	text-align: left;
 	font-size:20px;
 	line-height: 24px;
 	height: 110px;
 	width: 70%;
-	text-align: center;
+	margin:0 auto;
+	margin-top:12%;
+	/*margin-left:14%;*/
+	margin-bottom: 8%;
 }
+
+
 
 .judgeFourUl li{
 	width:164px;
-	text-align: center;
 	margin:auto;
 	margin-top:0.2rem;
 }
@@ -797,6 +806,25 @@ html,body{
 }
 .jb1{
 	background-color:#80b6dd;
+}
+
+.jfli1{
+	margin-left: 8% !important;
+}
+
+.jfli2{
+
+	margin-left: 23% !important;
+}
+
+.jfli3{
+
+	margin-left: 17% !important;
+}
+
+.jfli4{
+	margin-left: 18% !important;
+
 }
 
 .judgeFourText{
